@@ -1,45 +1,45 @@
 # Contributing to LifeOS Skeleton
 
-Thank you for your interest in contributing!
+Thank you for considering contributing to **LifeOS Skeleton**!  
+We welcome all forms of contributions, from bug reports and feature requests to code improvements and documentation updates.
 
-## How to Contribute
+---
 
-1. **Fork the repository**
-   - Create your own fork on GitHub.
+## 🚀 How to Contribute
 
-2. **Create a branch**
+1. **Fork the repository**  
+   Create your own fork of the repo.
+
+2. **Create a branch**  
+   Use a descriptive branch name, e.g.:
    ```bash
-   git checkout -b feature/your-feature-name
+   git checkout -b feature/add-metrics-module
    ```
 
-3. **Make your changes**
-   - Follow the existing code style.
-   - Add or update tests when appropriate.
+3. **Make your changes**  
+   - Keep code clean and well-documented.  
+   - Add tests where applicable.  
 
-4. **Run the tests**
+4. **Commit your work**  
+   Use clear, descriptive commit messages:
    ```bash
-   pytest -q
+   git commit -m "Add metrics module for multiverse experiments"
    ```
 
-5. **Commit your changes**
-   ```bash
-   git commit -m "Add: description of changes"
-   ```
+5. **Push and submit a Pull Request (PR)**  
+   Push to your fork and open a PR against the `main` branch.
 
-6. **Push your branch**
-   ```bash
-   git push origin feature/your-feature-name
-   ```
+---
 
-7. **Submit a Pull Request**
-   - Open a pull request against the `main` branch of this repository.
-   - Include a clear description of your changes.
+## 📖 Guidelines
 
-## Reporting Issues
+- **Code style**: Follow PEP8 for Python code.  
+- **Tests**: Ensure all tests pass before submitting.  
+- **Documentation**: Update `README.md` or add docs where relevant.  
 
-- Use the GitHub Issues tab to report bugs or suggest enhancements.
-- Please include steps to reproduce issues if applicable.
+---
 
-## Code of Conduct
+## 💡 Need Help?
 
-This project follows a simple principle: **be respectful, constructive, and collaborative.**
+If you're unsure about anything, feel free to open an issue with your question.  
+We’re excited to build this project together!

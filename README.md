@@ -1,5 +1,7 @@
 # LifeOS Skeleton
 
+![CI](https://github.com/FrankoMcNally/lifeos_skeleton/actions/workflows/tests.yml/badge.svg)
+
 A minimal but extensible framework for simulating **evolutionary and cognitive traits** in a digital environment.  
 This repo provides the **core building blocks** for experimenting with digital genomes, lineages, traits, and multiverse-style simulations.
 
