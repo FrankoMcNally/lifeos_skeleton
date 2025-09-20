@@ -1,0 +1,7 @@
+include README.md
+include LICENSE.md
+include CONTRIBUTING.md
+include CHANGELOG.md
+include ROADMAP.md
+recursive-include configs *.yaml
+recursive-include tests *.py
