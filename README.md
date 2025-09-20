@@ -63,7 +63,9 @@ lifeos_skeleton/
 ├── README.md               # Project overview
 ├── requirements.txt        # Dependencies
 ├── LICENSE.md              # MIT License
-└── CONTRIBUTING.md         # Guidelines for contributors
+├── CONTRIBUTING.md         # Guidelines for contributors
+├── CHANGELOG.md            # Version history
+└── ROADMAP.md              # Project goals and milestones
 ```
 
 ---
@@ -103,13 +105,11 @@ lifeos_skeleton/
 
 ---
 
-## 🛠 Roadmap
+## 🛠 Roadmap & Documentation
 
-- [ ] Add richer trait models (language, rhythm, problem-solving)
-- [ ] Extend multiverse sandbox with parallel universes
-- [ ] Track emergent behaviors across thousands of generations
-- [ ] Provide visualization tools for family trees and evolution
-- [ ] Connect with DNA-inspired Prime Path & Tri-Linear frameworks
+- See [ROADMAP.md](ROADMAP.md) for upcoming goals and milestones.  
+- See [CONTRIBUTING.md](CONTRIBUTING.md) if you’d like to get involved.  
+- See [CHANGELOG.md](CHANGELOG.md) for version history.
 
 ---
 
