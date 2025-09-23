@@ -1,155 +1,151 @@
 # LifeOS Skeleton
 
-LifeOS is a DNA-inspired simulation framework for creating and evolving digital humans inside sandbox worlds.  
-It provides a **genome → traits → behavior → reproduction → lineage** pipeline with pluggable policies and multiverse scenarios.
+LifeOS Skeleton is a modular simulation framework designed to explore evolutionary dynamics, digital traits, and multiverse experiments.  
+This repo provides a clean starting point for experimentation, with utilities for stress testing, metrics analysis, and proof-of-concept demonstrations.
 
 ---
 
-## Features
+## 📂 Repository Layout
 
-- **Genome / DNA framework** – flexible loci supporting float, int, and enum values  
-- **Trait decoder** – maps raw DNA values into human-like traits  
-- **Policies** – e.g. Rational or Spiritual, influence decisions ("eat", "rest", "explore")  
-- **Reproduction & mutation** – genomes crossover and mutate over generations  
-- **Lineage tracking** – all individuals traced to their ancestors  
-- **Multiverse engine** – runs multiple worlds with different scenarios  
-- **Experiment runner** – configure and run via YAML configs  
-- **Metrics & artifacts** – population size, energy levels, diversity, lineage dumps  
-
----
-
-## Repository Layout
-
+```
 lifeos_skeleton/
-├── configs/ # Example YAML experiment configs
-│ └── sample_small.yaml
-├── lifeos/ # Core simulation engine
-│ ├── genome.py
-│ ├── traits.py
-│ ├── lineage.py
-│ ├── reproduction.py
-│ ├── policy.py
-│ ├── multiverse_engine.py
-│ └── ...
-├── tests/ # Pytest-based test suite
-│ ├── test_multiverse.py
-│ ├── test_pipeline_small.py
-│ └── ...
-├── runs/ # Auto-generated experiment outputs (ignored by Git)
-├── run_experiment.py # CLI entrypoint for running experiments
-├── analyze_results.py # Utility for visualizing experiment data
-├── monitor_resources.py # Resource usage monitor for stress tests
-├── requirements.txt
-└── README.md
-
-yaml
-Copy code
-
-⚠️ **Important:**  
-Older versions of this repo had a **nested folder structure** (`lifeos_skeleton/lifeos_skeleton/`).  
-This caused confusion and failing tests. The current version uses a **single clean root** layout.  
-
-📌 **Note on `runs/`:**  
-All experiment results (`runs/`) are excluded from version control (via `.gitignore`) to keep the repo lightweight.  
-Generate your own by running experiments with the provided configs and analysis tools.
+├── configs/              # Example YAML experiment configs
+│   ├── sample_small.yaml
+│   ├── sample_medium.yaml
+│   ├── sample_large.yaml
+│   ├── stress_medium.yaml
+│   ├── stress_large.yaml
+│   └── stress_extreme.yaml
+│
+├── lifeos/               # Core simulation engine
+│   ├── genome.py
+│   ├── lineage.py
+│   ├── traits.py
+│   ├── reproduction.py
+│   ├── policy.py
+│   ├── artifacts.py
+│   ├── metrics.py
+│   ├── multiverse_engine.py
+│   ├── prime_map.py
+│   ├── vault.py
+│   └── test_*.py
+│
+├── tests/                # Pytest-based test suite
+│   ├── test_multiverse.py
+│   ├── test_pipeline_small.py
+│   ├── test_traits.py
+│   └── ...
+│
+├── runs/                 # Auto-generated experiment outputs (ignored by Git)
+│
+├── analyze_results.py            # Basic metrics aggregation
+├── analyze_results_extended.py   # Extended analysis + plots
+├── monitor_resources.py          # Resource usage monitor
+├── run_experiment.py             # CLI entrypoint for running experiments
+├── QUICKSTART.md                 # Simple startup guide
+├── TEST_REPORT.md                # Full test results and documentation
+├── requirements.txt              # Dependencies
+└── README.md                     # This file
+```
 
 ---
 
-## Quick Start
+## ⚠️ Important
 
-### 1. Install dependencies
+Older versions of this repo had a **nested folder structure** (`lifeos_skeleton/lifeos_skeleton/`) which caused confusion.  
+The current version uses a **single clean root layout** for simplicity.
 
-**Windows PowerShell** (recommended):
+---
+
+## 🧪 Testing
+
+Run the full test suite with:
 
 ```powershell
-py -m pip install -r requirements.txt
-Linux / macOS / Git Bash:
+py -m pytest tests -v
+```
 
-bash
-Copy code
-python3 -m pip install -r requirements.txt
-2. Run tests to verify install
-Windows PowerShell:
+All tests must pass before experiments can be launched.
 
-powershell
-Copy code
-py -m pytest -v
-Linux / macOS:
+---
 
-bash
-Copy code
-pytest -v
-Expected: All tests should pass ✅
+## 🚀 Running Experiments
 
-3. Run an experiment
-powershell
-Copy code
+Example (small-scale test):
+
+```powershell
 py run_experiment.py --config configs/sample_small.yaml
-4. Analyze results
-powershell
-Copy code
+```
+
+Stress test (extreme):
+
+```powershell
+py run_experiment.py --config configs/stress_extreme.yaml
+```
+
+Outputs are written to `runs/EXP_*/` including:
+
+- `metrics.csv`  
+- `lineage.json`  
+- `metrics.png` (if matplotlib installed)  
+
+---
+
+## 📊 Analysis
+
+After running experiments, generate summary reports:
+
+```powershell
 py analyze_results.py --runs runs
-This generates summary CSVs and PNG plots for each world.
+py analyze_results_extended.py --runs runs
+```
 
-Example Config (configs/sample_small.yaml)
-yaml
-Copy code
-experiment_name: "multiverse_smoke"
-seed: 123456
-population_size: 200
-generations: 200
-mutation:
-  per_locus_rate: 0.01
-genome:
-  loci:
-    - name: cooperation
-      type: float
-      min: 0.0
-      max: 1.0
-    - name: curiosity
-      type: float
-      min: 0.0
-      max: 1.0
-scenarios:
-  - name: "baseline"
-    policy: "rational"
-  - name: "spiritual_communal"
-    policy: "spiritual"
-What You Can Do
-Simulate multiple civilizations in parallel
+This produces:
 
-Explore different survival policies (rational vs spiritual)
+- `summary.csv` – last generation metrics per run  
+- `metrics.png` – plots of energy/diversity over time  
+- Extended statistical breakdowns and visualizations
 
-Track genetic diversity across generations
+---
 
-Build evolutionary trees of digital humans
+## 🖥️ Resource Monitoring
 
-Roadmap
-Visualization of sandbox worlds
+Track CPU, memory, and disk usage during stress tests:
 
-Expanded policies (economic, cooperative, adversarial)
+```powershell
+py monitor_resources.py
+```
 
-Integration with real-world DNA markers
+Outputs system logs to `runs/system_monitor.csv`.
 
-Long-term multiverse experiments
+---
 
-Common Issues
-pytest not found on Windows: Use py -m pytest -v instead.
+## 📌 Proof of Concept
 
-Config file not found: Ensure the repo is in the updated single-root layout with configs/ directly inside the root.
+The repo demonstrates:
 
-Empty runs directory: Check that your config file is valid and experiment executed without errors.
+- Genome encoding/decoding  
+- Trait mapping and diversity tracking  
+- Policy-driven reproduction and lineage evolution  
+- Stress test validation and monitoring  
+- Automated analysis and reporting  
 
-Runs not in repo: By design, runs/ outputs are excluded. Generate fresh results locally.
+For details, see: **[TEST_REPORT.md](TEST_REPORT.md)**
 
-Documentation & Community
-Quickstart Guide
+---
 
-Contributing Guidelines
+## 📥 Installation
 
-Changelog
+Dependencies:
 
-Test Report
+```powershell
+pip install -r requirements.txt
+```
 
-License
-MIT License © 2025
+Recommended environment: **Python 3.10+** with **VS Code or PyCharm**.
+
+---
+
+## 📜 License
+
+This project is released under the MIT License.
