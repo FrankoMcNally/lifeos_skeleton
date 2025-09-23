@@ -1,0 +1,35 @@
+experiment_name: "sample_medium"
+seed: 123456
+population_size: 500
+generations: 300
+mutation:
+  per_locus_rate: 0.02
+
+genome:
+  loci:
+    - name: size
+      type: float
+      min: 0.5
+      max: 3.0
+    - name: energy
+      type: int
+      min: 0
+      max: 100
+    - name: color
+      type: enum
+      enum: ["red", "green", "blue"]
+
+scenarios:
+  - name: "baseline"
+    enable_language: false
+    math_injection: false
+    money_system: false
+    policy: "rational"
+  - name: "spiritual_communal"
+    enable_language: true
+    math_injection: false
+    money_system: true
+    policy: "spiritual"
+
+checkpoint_interval: 25
+logging_level: "INFO"

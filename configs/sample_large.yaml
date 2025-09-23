@@ -1,0 +1,45 @@
+experiment_name: "sample_large"
+seed: 987654
+population_size: 1000
+generations: 500
+mutation:
+  per_locus_rate: 0.03
+
+genome:
+  loci:
+    - name: size
+      type: float
+      min: 0.5
+      max: 3.0
+    - name: energy
+      type: int
+      min: 0
+      max: 100
+    - name: color
+      type: enum
+      enum: ["red", "green", "blue"]
+
+scenarios:
+  - name: "baseline"
+    enable_language: false
+    math_injection: false
+    money_system: false
+    policy: "rational"
+  - name: "language_only"
+    enable_language: true
+    math_injection: false
+    money_system: false
+    policy: "rational"
+  - name: "math_language"
+    enable_language: true
+    math_injection: true
+    money_system: false
+    policy: "rational"
+  - name: "spiritual_communal"
+    enable_language: true
+    math_injection: false
+    money_system: true
+    policy: "spiritual"
+
+checkpoint_interval: 50
+logging_level: "INFO"

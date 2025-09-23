@@ -1,8 +1,17 @@
-colorama==0.4.6
-iniconfig==2.1.0
-packaging==25.0
-pip==25.2
-pluggy==1.6.0
-Pygments==2.19.2
+# === Core dependencies for LifeOS ===
+
 pytest==8.4.2
+# Used for running the automated test suite in /tests
+# (developers can confirm the system is working with: `pytest -v`)
+
 PyYAML==6.0.2
+# Required for parsing experiment configuration files (*.yaml)
+# Example: configs/sample_small.yaml is loaded in run_experiment.py
+
+numpy>=1.24
+# Provides math utilities for genome mutation, variation, and metrics
+# (e.g. calculating diversity in multiverse_engine.py)
+
+matplotlib>=3.7
+# Used in analyze_results.py to generate plots of simulation metrics
+# Optional if you don’t plan to visualize results, but recommended

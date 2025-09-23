@@ -1,132 +1,155 @@
 # LifeOS Skeleton
 
-![CI](https://github.com/FrankoMcNally/lifeos_skeleton/actions/workflows/tests.yml/badge.svg)
-
-A minimal but extensible framework for simulating **evolutionary and cognitive traits** in a digital environment.  
-This repo provides the **core building blocks** for experimenting with digital genomes, lineages, traits, and multiverse-style simulations.
+LifeOS is a DNA-inspired simulation framework for creating and evolving digital humans inside sandbox worlds.  
+It provides a **genome → traits → behavior → reproduction → lineage** pipeline with pluggable policies and multiverse scenarios.
 
 ---
 
-## 🚀 Features
+## Features
 
-- **Core Modules**
-  - `genome.py`: defines digital genomes and traits
-  - `lineage.py`: tracks ancestry and reproduction
-  - `multiverse.py`: manages multiple evolving environments
-  - `metrics.py`: collects simulation statistics
-  - `traits.py`: configurable behavioral traits
-  - `policy.py`: strategy and decision-making policies
-
-- **Experiment Configurations**
-  - YAML configs under `configs/` (e.g. `sample_small.yaml`) to define population size, mutation rates, policies, and scenarios.
-
-- **Testing & Validation**
-  - Full test suite under `tests/`
-  - Includes pipeline tests (config + run) to validate reproducibility
-  - CI-friendly structure for future automation
-
-- **Reproducibility**
-  - Deterministic seeds (`configs/sample_small.yaml`)
-  - Results written to structured `runs/` folders (auto-ignored by Git)
+- **Genome / DNA framework** – flexible loci supporting float, int, and enum values  
+- **Trait decoder** – maps raw DNA values into human-like traits  
+- **Policies** – e.g. Rational or Spiritual, influence decisions ("eat", "rest", "explore")  
+- **Reproduction & mutation** – genomes crossover and mutate over generations  
+- **Lineage tracking** – all individuals traced to their ancestors  
+- **Multiverse engine** – runs multiple worlds with different scenarios  
+- **Experiment runner** – configure and run via YAML configs  
+- **Metrics & artifacts** – population size, energy levels, diversity, lineage dumps  
 
 ---
 
-## 🧬 Vision
+## Repository Layout
 
-This skeleton is the **first step** toward building **DNA-inspired digital beings** that can evolve and interact in a **multiverse sandbox**.  
-The long-term goal is to explore:
-- How digital organisms adapt across simulated generations  
-- Emergent behaviors (cooperation, curiosity, creativity)  
-- Sandbox universes where structured language, mathematics, and spirituality can be introduced as catalysts for evolution  
-
-Think of this repo as **LifeOS v0.1** — a foundation on which more advanced simulations will grow.
-
----
-
-## 📂 Project Structure
-
-```
 lifeos_skeleton/
-│
-├── lifeos/                 # Core simulation modules
-│   ├── genome.py
-│   ├── lineage.py
-│   ├── multiverse.py
-│   ├── traits.py
-│   ├── policy.py
-│   └── ...
-│
-├── configs/                # Example experiment configs
-│   └── sample_small.yaml
-│
-├── tests/                  # Unit & pipeline tests
-├── runs/                   # Experiment outputs (ignored in Git)
-│
-├── README.md               # Project overview
-├── requirements.txt        # Dependencies
-├── LICENSE.md              # MIT License
-├── CONTRIBUTING.md         # Guidelines for contributors
-├── CHANGELOG.md            # Version history
-└── ROADMAP.md              # Project goals and milestones
-```
+├── configs/ # Example YAML experiment configs
+│ └── sample_small.yaml
+├── lifeos/ # Core simulation engine
+│ ├── genome.py
+│ ├── traits.py
+│ ├── lineage.py
+│ ├── reproduction.py
+│ ├── policy.py
+│ ├── multiverse_engine.py
+│ └── ...
+├── tests/ # Pytest-based test suite
+│ ├── test_multiverse.py
+│ ├── test_pipeline_small.py
+│ └── ...
+├── runs/ # Auto-generated experiment outputs (ignored by Git)
+├── run_experiment.py # CLI entrypoint for running experiments
+├── analyze_results.py # Utility for visualizing experiment data
+├── monitor_resources.py # Resource usage monitor for stress tests
+├── requirements.txt
+└── README.md
+
+yaml
+Copy code
+
+⚠️ **Important:**  
+Older versions of this repo had a **nested folder structure** (`lifeos_skeleton/lifeos_skeleton/`).  
+This caused confusion and failing tests. The current version uses a **single clean root** layout.  
+
+📌 **Note on `runs/`:**  
+All experiment results (`runs/`) are excluded from version control (via `.gitignore`) to keep the repo lightweight.  
+Generate your own by running experiments with the provided configs and analysis tools.
 
 ---
 
-## ⚡ Quickstart
+## Quick Start
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/FrankoMcNally/lifeos_skeleton.git
-   cd lifeos_skeleton
-   ```
+### 1. Install dependencies
 
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+**Windows PowerShell** (recommended):
 
-3. Run tests to verify setup:
-   ```bash
-   pytest -q
-   ```
+```powershell
+py -m pip install -r requirements.txt
+Linux / macOS / Git Bash:
 
-4. Run a sample experiment:
-   ```bash
-   python run_experiment.py --config configs/sample_small.yaml
-   ```
+bash
+Copy code
+python3 -m pip install -r requirements.txt
+2. Run tests to verify install
+Windows PowerShell:
 
----
+powershell
+Copy code
+py -m pytest -v
+Linux / macOS:
 
-## 📈 Example Output
+bash
+Copy code
+pytest -v
+Expected: All tests should pass ✅
 
-- Simulation logs and metrics will be saved under `runs/EXP_<timestamp>_multiverse_smoke/`
-- Includes:
-  - `lineage.json`: ancestry data
-  - `metrics.csv`: performance and trait statistics
-  - `config.yaml`: snapshot of experiment parameters
+3. Run an experiment
+powershell
+Copy code
+py run_experiment.py --config configs/sample_small.yaml
+4. Analyze results
+powershell
+Copy code
+py analyze_results.py --runs runs
+This generates summary CSVs and PNG plots for each world.
 
----
+Example Config (configs/sample_small.yaml)
+yaml
+Copy code
+experiment_name: "multiverse_smoke"
+seed: 123456
+population_size: 200
+generations: 200
+mutation:
+  per_locus_rate: 0.01
+genome:
+  loci:
+    - name: cooperation
+      type: float
+      min: 0.0
+      max: 1.0
+    - name: curiosity
+      type: float
+      min: 0.0
+      max: 1.0
+scenarios:
+  - name: "baseline"
+    policy: "rational"
+  - name: "spiritual_communal"
+    policy: "spiritual"
+What You Can Do
+Simulate multiple civilizations in parallel
 
-## 🛠 Roadmap & Documentation
+Explore different survival policies (rational vs spiritual)
 
-- See [ROADMAP.md](ROADMAP.md) for upcoming goals and milestones.  
-- See [CONTRIBUTING.md](CONTRIBUTING.md) if you’d like to get involved.  
-- See [CHANGELOG.md](CHANGELOG.md) for version history.
+Track genetic diversity across generations
 
----
+Build evolutionary trees of digital humans
 
-## 🤝 Contributing
+Roadmap
+Visualization of sandbox worlds
 
-Contributions, ideas, and extensions are welcome!  
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Expanded policies (economic, cooperative, adversarial)
 
----
+Integration with real-world DNA markers
 
-## 📜 License
+Long-term multiverse experiments
 
-This project is licensed under the MIT License.  
-See [LICENSE.md](LICENSE.md) for details.
+Common Issues
+pytest not found on Windows: Use py -m pytest -v instead.
 
----
+Config file not found: Ensure the repo is in the updated single-root layout with configs/ directly inside the root.
 
-> **LifeOS Skeleton** is the seed of a bigger journey — evolving digital beings, one trait at a time.
+Empty runs directory: Check that your config file is valid and experiment executed without errors.
+
+Runs not in repo: By design, runs/ outputs are excluded. Generate fresh results locally.
+
+Documentation & Community
+Quickstart Guide
+
+Contributing Guidelines
+
+Changelog
+
+Test Report
+
+License
+MIT License © 2025

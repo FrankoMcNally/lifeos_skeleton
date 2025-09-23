@@ -1,0 +1,39 @@
+# configs/stress_extreme.yaml
+experiment_name: "stress_extreme"
+seed: 789123
+
+# 🔥 Extreme scale settings
+population_size: 10000      # very large starting population
+generations: 500            # number of generations to simulate
+
+mutation:
+  per_locus_rate: 0.02      # slightly higher mutation rate to stress test
+
+genome:
+  loci:
+    - name: cooperation
+      type: float
+      min: 0.0
+      max: 1.0
+    - name: curiosity
+      type: float
+      min: 0.0
+      max: 1.0
+    - name: resilience
+      type: float
+      min: 0.0
+      max: 1.0
+    - name: innovation
+      type: float
+      min: 0.0
+      max: 1.0
+
+scenarios:
+  - name: "baseline"
+    policy: "rational"
+  - name: "spiritual_communal"
+    policy: "spiritual"
+  - name: "adaptive"
+    policy: "adaptive"
+  - name: "competitive"
+    policy: "competitive"

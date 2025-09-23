@@ -1,45 +1,45 @@
 # Contributing to LifeOS Skeleton
 
 Thank you for considering contributing to **LifeOS Skeleton**!  
-We welcome all forms of contributions, from bug reports and feature requests to code improvements and documentation updates.
+This project is a DNA-inspired simulation framework for evolving digital humans in sandbox worlds.
 
 ---
 
-## 🚀 How to Contribute
+## How to Contribute
 
-1. **Fork the repository**  
-   Create your own fork of the repo.
+### 1. Reporting Issues
+- Use the [GitHub Issues](../../issues) tab to report bugs or suggest new features.
+- Please include clear steps to reproduce bugs and, if possible, screenshots or logs.
 
-2. **Create a branch**  
-   Use a descriptive branch name, e.g.:
-   ```bash
-   git checkout -b feature/add-metrics-module
-   ```
+### 2. Suggesting Features
+- Open an issue and label it as `enhancement`.
+- Describe the feature and why it would improve the project.
 
-3. **Make your changes**  
-   - Keep code clean and well-documented.  
-   - Add tests where applicable.  
+### 3. Contributing Code
+- Fork the repository and create a new branch (`feature/my-new-feature` or `fix/issue-123`).
+- Add your changes with tests where possible.
+- Submit a Pull Request (PR) to the `main` branch.
 
-4. **Commit your work**  
-   Use clear, descriptive commit messages:
-   ```bash
-   git commit -m "Add metrics module for multiverse experiments"
-   ```
+### 4. Code Style
+- Follow **PEP8** guidelines.
+- Use clear, descriptive variable names and add docstrings to new functions.
 
-5. **Push and submit a Pull Request (PR)**  
-   Push to your fork and open a PR against the `main` branch.
-
----
-
-## 📖 Guidelines
-
-- **Code style**: Follow PEP8 for Python code.  
-- **Tests**: Ensure all tests pass before submitting.  
-- **Documentation**: Update `README.md` or add docs where relevant.  
+### 5. Running Tests
+Make sure all tests pass before submitting a PR:
+```bash
+pytest -v
+```
 
 ---
 
-## 💡 Need Help?
+## Community Guidelines
 
-If you're unsure about anything, feel free to open an issue with your question.  
-We’re excited to build this project together!
+- Be respectful and collaborative.
+- Keep discussions constructive and focused on the project.
+- All contributions are welcome — from code and documentation to testing and ideas.
+
+---
+
+## License
+
+By contributing, you agree that your contributions will be licensed under the MIT License.

@@ -1,0 +1,25 @@
+experiment_name: "stress_large"
+seed: 789012
+population_size: 2000
+generations: 300
+mutation:
+  per_locus_rate: 0.02
+genome:
+  loci:
+    - name: cooperation
+      type: float
+      min: 0.0
+      max: 1.0
+    - name: curiosity
+      type: float
+      min: 0.0
+      max: 1.0
+    - name: endurance
+      type: float
+      min: 0.0
+      max: 1.0
+scenarios:
+  - name: "baseline"
+    policy: "rational"
+  - name: "spiritual_communal"
+    policy: "spiritual"

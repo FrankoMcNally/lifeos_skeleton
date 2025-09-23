@@ -1,0 +1,36 @@
+experiment_name: "stress_medium"
+seed: 123456
+population_size: 600
+generations: 120
+
+mutation:
+  per_locus_rate: 0.03
+
+genome:
+  loci:
+    # Keep energy as the 2nd locus so avg_energy updates/metrics work
+    - name: size
+      type: float
+      min: 0.5
+      max: 3.0
+    - name: energy
+      type: int
+      min: 0
+      max: 100
+    - name: color
+      type: enum
+      enum: ["red", "green", "blue"]
+    - name: cooperation
+      type: float
+      min: 0.0
+      max: 1.0
+    - name: curiosity
+      type: float
+      min: 0.0
+      max: 1.0
+
+scenarios:
+  - name: "baseline"
+    policy: "rational"
+  - name: "spiritual_communal"
+    policy: "spiritual"
