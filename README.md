@@ -127,6 +127,8 @@ Outputs:
 
 ## 📑 Test Reports
 
+All test reports are now organized under the `docs/` folder:
+
 - [`docs/TEST_REPORT.md`](docs/TEST_REPORT.md) – Standard validation  
 - [`docs/TEST_REPORT_ADAM_EVE.md`](docs/TEST_REPORT_ADAM_EVE.md) – Adam & Eve structured lineage  
 - [`docs/TEST_REPORT_EXTREME.md`](docs/TEST_REPORT_EXTREME.md) – Extreme stress tests  
