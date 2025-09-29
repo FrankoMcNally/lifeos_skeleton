@@ -1,0 +1,33 @@
+experiment_name: "adam_eve_pilot"
+seed: 42
+generations: 60
+
+population:
+  initial_couples: 12          # 24 founders
+  lifespan_generations: 4      # each agent lives 4 gens
+  max_children_per_pair: 6     # 4–8 realistic; start with 6
+  incest_min_distance: 2       # block shared ancestor within 2 hops
+
+reproduction:
+  allowed_generations: [2, 3]  # reproduce only in gen 2 and 3
+  attraction_threshold: 2.2    # lower if pool is too small
+  cross_family_bias: 0.25      # prefer cross-family pairs
+
+memory:
+  per_agent_slots: 8           # tiny ring buffer
+  shared_bytes: 2048           # ~2KB shared ledger
+
+economy:
+  base_energy: 10.0
+  cost_per_child: 3.0
+  elder_help_gen: 4
+  elder_help_amount: 2.0
+
+pacing:
+  golden_ratio: true
+  base_sleep_ms: 8
+
+traits_dir: "traits"
+
+output:
+  write_reproduction_events: true

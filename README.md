@@ -1,151 +1,103 @@
-# LifeOS Skeleton
+LifeOS Skeleton
+LifeOS Skeleton is a modular framework for simulating evolving life systems.
+It provides genome encoding, trait expression, policies, reproduction rules, lineage tracking, and multiverse experimentation.
 
-LifeOS Skeleton is a modular simulation framework designed to explore evolutionary dynamics, digital traits, and multiverse experiments.  
-This repo provides a clean starting point for experimentation, with utilities for stress testing, metrics analysis, and proof-of-concept demonstrations.
 
----
+Features
+Genome encoding and decoding
+Trait mapping and expression
+Policy-driven decision making
+Reproduction and lineage tracking
+Multiverse experiments with configurable worlds
+Stress-test ready (small → extreme)
+Adam & Eve module extension for structured lineage testing
+Prime Sentient AI (PSAI) hooks for future adaptive behavior
 
-## 📂 Repository Layout
 
-```
-lifeos_skeleton/
-├── configs/              # Example YAML experiment configs
-│   ├── sample_small.yaml
-│   ├── sample_medium.yaml
-│   ├── sample_large.yaml
-│   ├── stress_medium.yaml
-│   ├── stress_large.yaml
-│   └── stress_extreme.yaml
-│
-├── lifeos/               # Core simulation engine
-│   ├── genome.py
-│   ├── lineage.py
-│   ├── traits.py
-│   ├── reproduction.py
-│   ├── policy.py
-│   ├── artifacts.py
-│   ├── metrics.py
-│   ├── multiverse_engine.py
-│   ├── prime_map.py
-│   ├── vault.py
-│   └── test_*.py
-│
-├── tests/                # Pytest-based test suite
-│   ├── test_multiverse.py
-│   ├── test_pipeline_small.py
-│   ├── test_traits.py
-│   └── ...
-│
-├── runs/                 # Auto-generated experiment outputs (ignored by Git)
-│
-├── analyze_results.py            # Basic metrics aggregation
-├── analyze_results_extended.py   # Extended analysis + plots
-├── monitor_resources.py          # Resource usage monitor
-├── run_experiment.py             # CLI entrypoint for running experiments
-├── QUICKSTART.md                 # Simple startup guide
-├── TEST_REPORT.md                # Full test results and documentation
-├── requirements.txt              # Dependencies
-└── README.md                     # This file
-```
+Installation
+Clone the repo and install dependencies:
 
----
+git clone https://github.com/FrankoMcNally/lifeos_skeleton.git
 
-## ⚠️ Important
+cd lifeos_skeleton
 
-Older versions of this repo had a **nested folder structure** (`lifeos_skeleton/lifeos_skeleton/`) which caused confusion.  
-The current version uses a **single clean root layout** for simplicity.
-
----
-
-## 🧪 Testing
-
-Run the full test suite with:
-
-```powershell
-py -m pytest tests -v
-```
-
-All tests must pass before experiments can be launched.
-
----
-
-## 🚀 Running Experiments
-
-Example (small-scale test):
-
-```powershell
-py run_experiment.py --config configs/sample_small.yaml
-```
-
-Stress test (extreme):
-
-```powershell
-py run_experiment.py --config configs/stress_extreme.yaml
-```
-
-Outputs are written to `runs/EXP_*/` including:
-
-- `metrics.csv`  
-- `lineage.json`  
-- `metrics.png` (if matplotlib installed)  
-
----
-
-## 📊 Analysis
-
-After running experiments, generate summary reports:
-
-```powershell
-py analyze_results.py --runs runs
-py analyze_results_extended.py --runs runs
-```
-
-This produces:
-
-- `summary.csv` – last generation metrics per run  
-- `metrics.png` – plots of energy/diversity over time  
-- Extended statistical breakdowns and visualizations
-
----
-
-## 🖥️ Resource Monitoring
-
-Track CPU, memory, and disk usage during stress tests:
-
-```powershell
-py monitor_resources.py
-```
-
-Outputs system logs to `runs/system_monitor.csv`.
-
----
-
-## 📌 Proof of Concept
-
-The repo demonstrates:
-
-- Genome encoding/decoding  
-- Trait mapping and diversity tracking  
-- Policy-driven reproduction and lineage evolution  
-- Stress test validation and monitoring  
-- Automated analysis and reporting  
-
-For details, see: **[TEST_REPORT.md](TEST_REPORT.md)**
-
----
-
-## 📥 Installation
-
-Dependencies:
-
-```powershell
 pip install -r requirements.txt
-```
 
-Recommended environment: **Python 3.10+** with **VS Code or PyCharm**.
 
----
+Quickstart
+Run a small pipeline test:
 
-## 📜 License
+py run_experiment.py --config configs/sample_small.yaml
 
-This project is released under the MIT License.
+Artifacts will appear under runs/:
+
+metrics.csv
+lineage.json
+
+
+Adam & Eve Module
+The Adam & Eve module extends LifeOS with structured reproduction rules:
+
+12 founding couples (24 instances)
+4 lifespan phases (elders survive beyond reproduction)
+Reproduction in phase 2 only
+Loyalty enforced (no incest, fixed couples)
+Children capped (4–8 per couple)
+Lineage traces back to original 12 couples
+Kilobyte-scale memory per instance + shared pool
+PSAI hooks for attraction and competence
+
+Run it with:
+
+py run_adam_eve.py --config configs/adam_eve.yaml
+
+Outputs (in runs/):
+
+metrics.csv
+lineage.json
+reproduction_events.json
+traits_loaded.json
+
+
+Stress Testing
+Stress configs:
+
+stress_medium.yaml (500 population, 200 generations)
+stress_large.yaml (1000 population, 500 generations)
+stress_extreme.yaml (2000 population, 1000 generations)
+
+Run:
+
+py run_experiment.py --config configs/stress_extreme.yaml
+
+Resource usage is tracked via:
+
+python monitor_resources.py
+
+Results are summarized in:
+
+runs/system_monitor.csv
+TEST_REPORT.md
+TEST_REPORT_ADAM_EVE.md
+
+
+Test Reports
+See the reports for detailed results:
+
+TEST_REPORT.md – Stress tests, pipeline validation, system monitoring
+TEST_REPORT_ADAM_EVE.md – Adam & Eve lineage module validation
+
+Each report includes metrics snapshots directly in tables (no external PNGs needed).
+
+
+Contributing
+Contributions are welcome!
+
+Fork the repo
+Create a feature branch
+Submit a pull request with clear description
+
+
+License
+MIT License © 2025 Frank McNally
+

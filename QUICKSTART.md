@@ -1,68 +1,74 @@
-# Quickstart Guide – LifeOS Skeleton
+"""
+Quickstart Guide – LifeOS Skeleton
+==================================
 
-This is the **short reference** for getting started quickly with LifeOS.  
-For full details, see the main [README.md](README.md).
+This is the short reference for getting started quickly with LifeOS.
+For full details, see the main README.md.
 
----
 
-## 1. Install Dependencies
+1. Install Dependencies
+------------------------
+Windows (PowerShell):
+    py -m pip install -r requirements.txt
 
-### Windows (PowerShell)
+Linux / macOS / Git Bash:
+    python3 -m pip install -r requirements.txt
 
-```powershell
-py -m pip install -r requirements.txt
-```
 
-### Linux / macOS / Git Bash
+2. Verify Installation
+------------------------
+Windows (PowerShell):
+    py -m pytest -v
 
-```bash
-python3 -m pip install -r requirements.txt
-```
-
----
-
-## 2. Verify Installation
-
-### Windows (PowerShell)
-```powershell
-py -m pytest -v
-```
-
-### Linux / macOS
-```bash
-pytest -v
-```
+Linux / macOS:
+    pytest -v
 
 Expected: All tests should pass ✅
 
----
 
-## 3. Run Your First Experiment
+3. Run Your First Experiment
+------------------------------
+Windows:
+    py run_experiment.py --config configs/sample_small.yaml
 
-```powershell
-py run_experiment.py --config configs/sample_small.yaml
-```
+Linux / macOS:
+    python3 run_experiment.py --config configs/sample_small.yaml
 
-Output: `runs/EXP_<timestamp>_sample_small/` with:  
-- `metrics.csv` → diversity & energy per generation  
-- `lineage.json` → ancestry tree
+Output: runs/EXP_<timestamp>_sample_small/ with:
+    • metrics.csv → diversity & energy per generation
+    • lineage.json → ancestry tree
 
----
 
-## 4. Next Steps
+4. Adam & Eve Module
+----------------------
+Windows:
+    py run_adam_eve.py --config configs/adam_eve_free.yaml
 
-- Edit configs in `/configs` to design new worlds  
-- Explore traits, mutation rates, and policies  
-- Track population survival and adaptation across generations  
+Linux / macOS:
+    python3 run_adam_eve.py --config configs/adam_eve_free.yaml
 
----
+Output: runs/ADAM_EVE_<timestamp>_<name>/ with:
+    • metrics.csv
+    • lineage.json
+    • reproduction_events.json
+    • traits_loaded.json
+    • shared_memory.json
 
-## Common Issues
 
-- **`pytest` not found on Windows:** Use `py -m pytest -v` instead.  
-- **Config file not found:** Ensure the repo is in the updated **single-root layout** with `configs/` directly inside the root.  
-- **Empty runs directory:** Check that your config file is valid and experiment executed without errors.  
+5. Next Steps
+---------------
+    • Edit configs in /configs to design new worlds
+    • Explore traits, mutation rates, and policies
+    • Track population survival and adaptation across generations
 
----
+
+Common Issues
+---------------
+    • "pytest not found" on Windows → use `py -m pytest -v` instead.
+    • "Config file not found" → ensure configs/ is in the project root.
+    • Empty runs directory → check config validity and rerun experiment.
+    • Windows users → always use `py` instead of `python` when running scripts.
+
 
 🎯 That’s it — you’re up and running!
+"""

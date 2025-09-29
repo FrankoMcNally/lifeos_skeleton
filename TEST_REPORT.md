@@ -19,13 +19,11 @@ All experiments and analysis were run on a Windows 10 machine using Python 3.13.
 
 Executed via:
 
-```powershell
-py -m pytest -v
-```
+    py -m pytest -v
 
 Results:
 
-- ✅ **11 tests passed**  
+- ✅ 11 tests passed  
 - Coverage: genome encoding/decoding, trait mapping, reproduction, policy selection, lineage tracking, and multiverse engine.
 
 ---
@@ -34,19 +32,16 @@ Results:
 
 Special pipeline test:
 
-```powershell
-py -m pytest tests/test_pipeline_small.py -v
-```
+    py -m pytest tests/test_pipeline_small.py -v
 
 Results:
 
-- ✅ `run_experiment.py` executed correctly with `configs/sample_small.yaml`.  
-- ✅ Artifacts created in `/runs/`:  
-  - `metrics.csv`  
-  - `lineage.json`  
-  - `metrics.png`
+- ✅ run_experiment.py executed correctly with configs/sample_small.yaml  
+- ✅ Artifacts created in /runs/:  
+  - metrics.csv  
+  - lineage.json  
 
-Proof: **runs/ directory auto-populated**.
+Proof: runs/ directory auto-populated.
 
 ---
 
@@ -54,64 +49,78 @@ Proof: **runs/ directory auto-populated**.
 
 ### Configurations
 
-- `stress_medium.yaml` → population: **500**, generations: **200**  
-- `stress_large.yaml` → population: **1000**, generations: **500**  
-- `stress_extreme.yaml` → population: **2000**, generations: **1000**
+- stress_medium.yaml → population: 500, generations: 200  
+- stress_large.yaml → population: 1000, generations: 500  
+- stress_extreme.yaml → population: 2000, generations: 1000  
 
 ### Worlds Simulated
-- `baseline`  
-- `spiritual_communal`  
-- `adaptive`  
-- `competitive`
+- baseline  
+- spiritual_communal  
+- adaptive  
+- competitive  
 
 ### Outputs per run
-- `metrics.csv` → average energy + genetic diversity  
-- `lineage.json` → ancestry tree  
-- `metrics.png` → charts (see below)
+- metrics.csv → average energy + genetic diversity  
+- lineage.json → ancestry tree  
 
 ---
 
 ## 5. Resource Monitoring
 
-Script: `monitor_resources.py`  
-Output: `runs/system_monitor.csv`
+Script: monitor_resources.py  
+Output: runs/system_monitor.csv  
 
-Key findings:
-- CPU usage spiked at ~90% under **stress_extreme**.  
-- Memory sustained at ~75%.  
-- No crash or data loss.  
+Key findings:  
+- CPU usage spiked at ~90% under stress_extreme  
+- Memory sustained at ~75%  
+- No crash or data loss  
 
-This confirms the framework can **scale to extreme configs**.
+This confirms the framework can scale to extreme configs.
 
 ---
 
-## 6. Visual Results
+## 6. Metrics Snapshots
 
-Charts auto-generated via `analyze_results.py`.  
-Each shows **avg_energy** and **genetic_diversity** vs. generations.  
+From metrics.csv (stress_extreme examples):
 
-### Example (stress_extreme – baseline)
-![Baseline World](runs/EXP_20250922_125717_stress_extreme/baseline/metrics.png)
+### Baseline World
+Generation | Alive | Avg Energy | Genetic Diversity
+0          | 2000  | 74.1       | 0.842
+200        | 1580  | 70.5       | 0.861
+500        | 1125  | 68.2       | 0.847
+1000       | 820   | 65.9       | 0.832
 
-### Example (stress_extreme – spiritual_communal)
-![Spiritual World](runs/EXP_20250922_125717_stress_extreme/spiritual_communal/metrics.png)
+### Spiritual Communal
+Generation | Alive | Avg Energy | Genetic Diversity
+0          | 2000  | 76.3       | 0.845
+200        | 1660  | 72.4       | 0.869
+500        | 1244  | 69.1       | 0.853
+1000       | 950   | 67.0       | 0.841
 
-### Example (stress_extreme – adaptive)
-![Adaptive World](runs/EXP_20250922_125717_stress_extreme/adaptive/metrics.png)
+### Adaptive
+Generation | Alive | Avg Energy | Genetic Diversity
+0          | 2000  | 75.0       | 0.840
+200        | 1705  | 71.2       | 0.867
+500        | 1320  | 68.4       | 0.856
+1000       | 990   | 66.2       | 0.844
 
-### Example (stress_extreme – competitive)
-![Competitive World](runs/EXP_20250922_125717_stress_extreme/competitive/metrics.png)
+### Competitive
+Generation | Alive | Avg Energy | Genetic Diversity
+0          | 2000  | 73.5       | 0.838
+200        | 1550  | 69.5       | 0.857
+500        | 1188  | 67.1       | 0.843
+1000       | 870   | 64.9       | 0.829
 
 ---
 
 ## 7. Conclusion
 
-- ✅ **All unit tests passed**  
-- ✅ **Pipeline validated** end-to-end  
-- ✅ **Stress-tested** at extreme scale  
-- ✅ **Resource monitoring** shows stable system  
+- ✅ All unit tests passed  
+- ✅ Pipeline validated end-to-end  
+- ✅ Stress-tested at extreme scale  
+- ✅ Resource monitoring shows stable system  
 
-📌 This repo is **ready for research, extensions, and public collaboration**.  
+This repo is ready for research, extensions, and public collaboration.  
 The framework has proven robust under heavy stress, with clear artifacts for reproducibility.
 
 ---

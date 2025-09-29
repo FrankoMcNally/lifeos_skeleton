@@ -1,0 +1,36 @@
+experiment_name: "adam_eve_debug"
+seed: 123456
+generations: 20
+
+# Founders
+num_couples: 12   # 24 starting individuals
+
+# Lifespan
+lifespan_phases: 4
+reproduction_phase: [1, 2]   # allow reproduction in BOTH phase 1 and 2
+pair_at_phase: 1
+
+# Children per couple (forced growth)
+children_cap_min: 2
+children_cap_max: 4
+
+# Mutation
+mutation:
+  per_locus_rate: 0.01
+
+# Memory
+memory:
+  per_individual_kb: 2
+  shared_pool_kb: 32
+
+# Genome (basic)
+genome:
+  loci:
+    - name: cooperation
+      type: float
+      min: 0.0
+      max: 1.0
+    - name: energy
+      type: int
+      min: 0
+      max: 100

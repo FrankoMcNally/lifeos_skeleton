@@ -1,0 +1,57 @@
+# configs/adam_eve_psai.yaml
+experiment_name: psai_env_test
+seed: 5678
+generations: 30
+
+# --- Founders ---
+num_couples: 6
+lifespan_phases: 12
+reproduction_phase: 2
+pair_at_phase: 1
+children_cap_min: 2
+children_cap_max: 5
+
+# --- Mutation ---
+mutation:
+  per_locus_rate: 0.02
+
+# --- Genome loci ---
+genome:
+  loci:
+    - name: cooperation
+      type: float
+      min: 0.0
+      max: 1.0
+    - name: energy
+      type: int
+      min: 0
+      max: 100
+    - name: curiosity
+      type: float
+      min: 0.0
+      max: 1.0
+    - name: spirit
+      type: float
+      min: 0.0
+      max: 1.0
+
+# --- Memory ---
+memory:
+  per_individual_kb: 2
+  shared_pool_kb: 32
+
+# --- Policy ---
+policy: psai   # <-- Sentient AI partner/foraging bias
+
+# --- Environment ---
+environment:
+  base_food_per_gen: 80
+  base_oxygen_per_gen: 50
+  food_replenish_noise: 0.2
+  oxygen_decay_per_gen: 1
+  energy_per_food_unit: 2.0
+  base_metabolic_cost: 1.2
+  birth_cost: 3.0
+  elder_help_threshold_gen: 6
+  elder_help_amount: 2.0
+  rng_seed: 2025
