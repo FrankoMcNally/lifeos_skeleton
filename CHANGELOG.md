@@ -1,6 +1,34 @@
+changelog = """\
 # Changelog
 
 All notable changes to this project will be documented in this file.
+
+---
+
+## [2025-09-29] – SentientMind MK7 Integration
+
+### Added
+- Upgraded **sentient_mk6.py** to embed **MK7 architecture** while preserving
+  MK6 compatibility:
+  - Layered states: energy, curiosity, competence, social_bond, stress.
+  - Subconscious buffers: dreams and memory_trace.
+  - Partner selection (`choose_partner`) based on cooperation + energy.
+  - Memory consolidation adjusting stress (death events) and curiosity (birth events).
+- Verified that all **Adam & Eve tests** (`test_adam_eve.py`, `test_adam_eve_free.py`)
+  pass unmodified with MK7 agent in place.
+- Produced new test report: `TEST_REPORT_SENTIENT.md`.
+
+### Changed
+- **decide_actions** reworked to return MK6-compatible `[{"type": ..., ...}]`
+  while leveraging MK7 behaviors internally.
+- Farming, sleep, and share actions now probabilistic and influenced by
+  agent state rather than fixed heuristics.
+- Dreams increase curiosity dynamically; stress adjusted by lineage events.
+
+### Notes
+- First stable baseline with **Sentient AI integration** into LifeOS Skeleton.
+- Population and diversity metrics confirm functional multi-generation runs.
+- Provides foundation for side-by-side MK6 vs MK7 comparative studies.
 
 ---
 
@@ -22,3 +50,5 @@ All notable changes to this project will be documented in this file.
 ### Notes
 - Stress test proof-of-concept confirms the framework scales to high population and generation counts.  
 - Monitoring and extended analysis scripts are now part of the repo for reproducible validation.
+"""
+print(changelog)

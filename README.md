@@ -1,103 +1,151 @@
-LifeOS Skeleton
-LifeOS Skeleton is a modular framework for simulating evolving life systems.
-It provides genome encoding, trait expression, policies, reproduction rules, lineage tracking, and multiverse experimentation.
+# LifeOS Skeleton
 
+LifeOS Skeleton is a modular framework for simulating evolving life systems.  
+It combines **genome-driven evolution**, **structured lineage rules**, and a newly
+integrated **Sentient AI agent (MK7)** into a single testable engine.  
 
-Features
-Genome encoding and decoding
-Trait mapping and expression
-Policy-driven decision making
-Reproduction and lineage tracking
-Multiverse experiments with configurable worlds
-Stress-test ready (small → extreme)
-Adam & Eve module extension for structured lineage testing
-Prime Sentient AI (PSAI) hooks for future adaptive behavior
+The framework is designed for **research, experimentation, and stress testing**:
+from small proof-of-concept runs to extreme multiverse scenarios.
 
+---
 
-Installation
+## ✨ Features
+
+- **Genome Encoding & Trait Expression**  
+  Encode DNA, map to traits, and track their expression over generations.
+
+- **Sentient Agent (MK7)**  
+  - Layered states: energy, curiosity, competence, social bond, stress.  
+  - Subconscious buffers: dreams and memory trace.  
+  - PSAI partner selection (cooperation + energy weighted).  
+  - Drop-in compatible with legacy MK6 interface.  
+
+- **Policy-Driven Decisions**  
+  Agents farm, rest, share, and forage based on hunger, resources, and
+  subconscious state.
+
+- **Lineage & Reproduction Rules**  
+  Track ancestry across generations with configurable caps, loyalty enforcement,
+  and phase-based reproduction.
+
+- **Testing & Reporting Module**  
+  - Standard tests (`TEST_REPORT.md`).  
+  - Adam & Eve lineage validation (`TEST_REPORT_ADAM_EVE.md`).  
+  - Extreme stress tests (`TEST_REPORT_EXTREME.md`).  
+  - Sentient validation (`TEST_REPORT_SENTIENT.md`).  
+
+- **Multiverse Experiments**  
+  Run multiple configurations (`baseline`, `psai`, `adaptive`, `competitive`)
+  across stress levels.
+
+- **Resource Monitoring**  
+  `monitor_resources.py` tracks CPU & memory usage for heavy runs.
+
+---
+
+## ⚡ Installation
+
 Clone the repo and install dependencies:
 
+```bash
 git clone https://github.com/FrankoMcNally/lifeos_skeleton.git
-
 cd lifeos_skeleton
-
 pip install -r requirements.txt
+```
 
+---
 
-Quickstart
+## 🚀 Quickstart
+
 Run a small pipeline test:
 
+```bash
 py run_experiment.py --config configs/sample_small.yaml
+```
 
-Artifacts will appear under runs/:
+Artifacts will appear under `runs/`:
 
-metrics.csv
-lineage.json
+- `metrics.csv` – population, energy, diversity over time  
+- `lineage.json` – ancestry tree  
+- `reproduction_events.json` – birth/death logs  
 
+---
 
-Adam & Eve Module
-The Adam & Eve module extends LifeOS with structured reproduction rules:
+## 🌱 Adam & Eve Module
 
-12 founding couples (24 instances)
-4 lifespan phases (elders survive beyond reproduction)
-Reproduction in phase 2 only
-Loyalty enforced (no incest, fixed couples)
-Children capped (4–8 per couple)
-Lineage traces back to original 12 couples
-Kilobyte-scale memory per instance + shared pool
-PSAI hooks for attraction and competence
+Structured lineage simulation with 12 founding couples:
+
+- 4 lifespan phases (elders survive beyond reproduction)  
+- Reproduction in phase 2 only  
+- Loyalty enforced (no incest, fixed couples)  
+- Children capped (4–8 per couple)  
+- Lineage traces back to original couples  
+- Individual + shared memory pools  
+- PSAI hooks for attraction and competence  
 
 Run it with:
 
+```bash
 py run_adam_eve.py --config configs/adam_eve.yaml
+```
 
-Outputs (in runs/):
+Outputs (in `runs/`):
 
-metrics.csv
-lineage.json
-reproduction_events.json
-traits_loaded.json
+- `metrics.csv`  
+- `lineage.json`  
+- `reproduction_events.json`  
+- `traits_loaded.json`  
 
+---
 
-Stress Testing
+## 🔥 Stress Testing
+
 Stress configs:
 
-stress_medium.yaml (500 population, 200 generations)
-stress_large.yaml (1000 population, 500 generations)
-stress_extreme.yaml (2000 population, 1000 generations)
+- `stress_medium.yaml` (500 population, 200 generations)  
+- `stress_large.yaml` (1000 population, 500 generations)  
+- `stress_extreme.yaml` (2000 population, 1000 generations)  
 
 Run:
 
+```bash
 py run_experiment.py --config configs/stress_extreme.yaml
+```
 
-Resource usage is tracked via:
+Track system usage:
 
+```bash
 python monitor_resources.py
+```
 
-Results are summarized in:
+Outputs:
 
-runs/system_monitor.csv
-TEST_REPORT.md
-TEST_REPORT_ADAM_EVE.md
+- `runs/system_monitor.csv`  
+- `TEST_REPORT_EXTREME.md`  
 
+---
 
-Test Reports
-See the reports for detailed results:
+## 📑 Test Reports
 
-TEST_REPORT.md – Stress tests, pipeline validation, system monitoring
-TEST_REPORT_ADAM_EVE.md – Adam & Eve lineage module validation
+- `TEST_REPORT.md` – Standard validation  
+- `TEST_REPORT_ADAM_EVE.md` – Adam & Eve structured lineage  
+- `TEST_REPORT_EXTREME.md` – Extreme stress tests  
+- `TEST_REPORT_SENTIENT.md` – Sentient MK7 integration results  
 
-Each report includes metrics snapshots directly in tables (no external PNGs needed).
+Each report includes metrics, lineage snapshots, and reproduction logs.
 
+---
 
-Contributing
+## 🤝 Contributing
+
 Contributions are welcome!
 
-Fork the repo
-Create a feature branch
-Submit a pull request with clear description
+1. Fork the repo  
+2. Create a feature branch  
+3. Submit a pull request with a clear description  
 
+---
 
-License
+## 📜 License
+
 MIT License © 2025 Frank McNally
-
