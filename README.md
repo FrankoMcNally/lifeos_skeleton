@@ -29,10 +29,10 @@ from small proof-of-concept runs to extreme multiverse scenarios.
   and phase-based reproduction.
 
 - **Testing & Reporting Module**  
-  - Standard tests (`TEST_REPORT.md`).  
-  - Adam & Eve lineage validation (`TEST_REPORT_ADAM_EVE.md`).  
-  - Extreme stress tests (`TEST_REPORT_EXTREME.md`).  
-  - Sentient validation (`TEST_REPORT_SENTIENT.md`).  
+  - Standard tests (`docs/TEST_REPORT.md`).  
+  - Adam & Eve lineage validation (`docs/TEST_REPORT_ADAM_EVE.md`).  
+  - Extreme stress tests (`docs/TEST_REPORT_EXTREME.md`).  
+  - Sentient validation (`docs/TEST_REPORT_SENTIENT.md`).  
 
 - **Multiverse Experiments**  
   Run multiple configurations (`baseline`, `psai`, `adaptive`, `competitive`)
@@ -121,16 +121,16 @@ python monitor_resources.py
 Outputs:
 
 - `runs/system_monitor.csv`  
-- `TEST_REPORT_EXTREME.md`  
+- `docs/TEST_REPORT_EXTREME.md`  
 
 ---
 
 ## 📑 Test Reports
 
-- `TEST_REPORT.md` – Standard validation  
-- `TEST_REPORT_ADAM_EVE.md` – Adam & Eve structured lineage  
-- `TEST_REPORT_EXTREME.md` – Extreme stress tests  
-- `TEST_REPORT_SENTIENT.md` – Sentient MK7 integration results  
+- [`docs/TEST_REPORT.md`](docs/TEST_REPORT.md) – Standard validation  
+- [`docs/TEST_REPORT_ADAM_EVE.md`](docs/TEST_REPORT_ADAM_EVE.md) – Adam & Eve structured lineage  
+- [`docs/TEST_REPORT_EXTREME.md`](docs/TEST_REPORT_EXTREME.md) – Extreme stress tests  
+- [`docs/TEST_REPORT_SENTIENT.md`](docs/TEST_REPORT_SENTIENT.md) – Sentient MK7 integration results  
 
 Each report includes metrics, lineage snapshots, and reproduction logs.
 
