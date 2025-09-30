@@ -41,6 +41,13 @@ from small proof-of-concept runs to extreme multiverse scenarios.
 - **Resource Monitoring**  
   `monitor_resources.py` tracks CPU & memory usage for heavy runs.
 
+- **Time Mapping**  
+  Each run now includes a `digital_years` column in `metrics.csv`:  
+  ```
+  digital_years = generation × 20
+  ```
+  This maps generations to a human-readable timeline.
+
 ---
 
 ## ⚡ Installation
@@ -65,7 +72,7 @@ py run_experiment.py --config configs/sample_small.yaml
 
 Artifacts will appear under `runs/`:
 
-- `metrics.csv` – population, energy, diversity over time  
+- `metrics.csv` – population, energy, diversity, **digital years**  
 - `lineage.json` – ancestry tree  
 - `reproduction_events.json` – birth/death logs  
 
@@ -134,7 +141,7 @@ All test reports are now organized under the `docs/` folder:
 - [`docs/TEST_REPORT_EXTREME.md`](docs/TEST_REPORT_EXTREME.md) – Extreme stress tests  
 - [`docs/TEST_REPORT_SENTIENT.md`](docs/TEST_REPORT_SENTIENT.md) – Sentient MK7 integration results  
 
-Each report includes metrics, lineage snapshots, and reproduction logs.
+Each report includes metrics (with `digital_years`), lineage snapshots, and reproduction logs.
 
 ---
 
