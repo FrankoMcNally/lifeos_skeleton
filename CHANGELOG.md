@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [2025-09-30] – Requirements Update
+
+### Added
+- **pandas>=2.0** added to `requirements.txt` to support CSV handling and
+  timeline mapping in `analyze_and_report.py`.
+- Ensures all analysis/report scripts run without missing dependency errors.
+
+### Notes
+- Developers should reinstall dependencies with:
+  `py -m pip install -r requirements.txt`
+
+---
+
 ## [2025-09-29] – SentientMind MK7 Integration
 
 ### Added

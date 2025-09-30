@@ -1,3 +1,4 @@
+requirements = """\
 # === Core dependencies for LifeOS ===
 
 pytest==8.4.2
@@ -13,5 +14,12 @@ numpy>=1.24
 # (e.g. calculating diversity in multiverse_engine.py)
 
 matplotlib>=3.7
-# Used in analyze_results.py to generate plots of simulation metrics
-# Optional if you don’t plan to visualize results, but recommended
+# Used in analyze_results.py and analyze_and_report.py to generate plots
+# of simulation metrics. Optional if you don’t plan to visualize results,
+# but recommended.
+
+pandas>=2.0
+# Used in analyze_and_report.py for CSV handling, metrics augmentation,
+# and timeline mapping (digital_years).
+"""
+print(requirements)
