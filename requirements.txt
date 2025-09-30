@@ -1,25 +1,10 @@
-requirements = """\
-# === Core dependencies for LifeOS ===
-
 pytest==8.4.2
-# Used for running the automated test suite in /tests
-# (developers can confirm the system is working with: `pytest -v`)
-
 PyYAML==6.0.2
-# Required for parsing experiment configuration files (*.yaml)
-# Example: configs/sample_small.yaml is loaded in run_experiment.py
-
 numpy>=1.24
-# Provides math utilities for genome mutation, variation, and metrics
-# (e.g. calculating diversity in multiverse_engine.py)
-
 matplotlib>=3.7
-# Used in analyze_results.py and analyze_and_report.py to generate plots
-# of simulation metrics. Optional if you don’t plan to visualize results,
-# but recommended.
-
 pandas>=2.0
-# Used in analyze_and_report.py for CSV handling, metrics augmentation,
-# and timeline mapping (digital_years).
-"""
-print(requirements)
+scipy>=1.11
+networkx>=3.2
+seaborn>=0.13
+jupyter>=1.0
+reportlab>=4.0

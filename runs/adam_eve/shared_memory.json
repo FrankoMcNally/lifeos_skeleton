@@ -1,0 +1,3994 @@
+[
+  {
+    "gen": 0,
+    "event": "founder_pair",
+    "ids": [
+      0,
+      1
+    ]
+  },
+  {
+    "gen": 0,
+    "event": "founder_pair",
+    "ids": [
+      2,
+      3
+    ]
+  },
+  {
+    "gen": 0,
+    "event": "founder_pair",
+    "ids": [
+      4,
+      5
+    ]
+  },
+  {
+    "gen": 0,
+    "event": "founder_pair",
+    "ids": [
+      6,
+      7
+    ]
+  },
+  {
+    "gen": 0,
+    "event": "founder_pair",
+    "ids": [
+      8,
+      9
+    ]
+  },
+  {
+    "gen": 0,
+    "event": "founder_pair",
+    "ids": [
+      10,
+      11
+    ]
+  },
+  {
+    "gen": 0,
+    "event": "founder_pair",
+    "ids": [
+      12,
+      13
+    ]
+  },
+  {
+    "gen": 0,
+    "event": "founder_pair",
+    "ids": [
+      14,
+      15
+    ]
+  },
+  {
+    "gen": 0,
+    "event": "founder_pair",
+    "ids": [
+      16,
+      17
+    ]
+  },
+  {
+    "gen": 0,
+    "event": "founder_pair",
+    "ids": [
+      18,
+      19
+    ]
+  },
+  {
+    "gen": 0,
+    "event": "founder_pair",
+    "ids": [
+      20,
+      21
+    ]
+  },
+  {
+    "gen": 0,
+    "event": "founder_pair",
+    "ids": [
+      22,
+      23
+    ]
+  },
+  {
+    "gen": 1,
+    "event": "farm",
+    "id": 0,
+    "effort": 0.491,
+    "yield": 2
+  },
+  {
+    "gen": 1,
+    "event": "farm",
+    "id": 1,
+    "effort": 0.578,
+    "yield": 2
+  },
+  {
+    "gen": 1,
+    "event": "farm",
+    "id": 2,
+    "effort": 0.51,
+    "yield": 2
+  },
+  {
+    "gen": 1,
+    "event": "farm",
+    "id": 3,
+    "effort": 0.493,
+    "yield": 2
+  },
+  {
+    "gen": 1,
+    "event": "farm",
+    "id": 4,
+    "effort": 0.609,
+    "yield": 2
+  },
+  {
+    "gen": 1,
+    "event": "farm",
+    "id": 5,
+    "effort": 0.615,
+    "yield": 2
+  },
+  {
+    "gen": 1,
+    "event": "farm",
+    "id": 6,
+    "effort": 0.522,
+    "yield": 2
+  },
+  {
+    "gen": 1,
+    "event": "farm",
+    "id": 7,
+    "effort": 0.504,
+    "yield": 2
+  },
+  {
+    "gen": 1,
+    "event": "farm",
+    "id": 8,
+    "effort": 0.55,
+    "yield": 2
+  },
+  {
+    "gen": 1,
+    "event": "farm",
+    "id": 9,
+    "effort": 0.451,
+    "yield": 2
+  },
+  {
+    "gen": 1,
+    "event": "farm",
+    "id": 10,
+    "effort": 0.539,
+    "yield": 2
+  },
+  {
+    "gen": 1,
+    "event": "farm",
+    "id": 11,
+    "effort": 0.429,
+    "yield": 2
+  },
+  {
+    "gen": 1,
+    "event": "farm",
+    "id": 12,
+    "effort": 0.428,
+    "yield": 2
+  },
+  {
+    "gen": 1,
+    "event": "farm",
+    "id": 13,
+    "effort": 0.471,
+    "yield": 2
+  },
+  {
+    "gen": 1,
+    "event": "farm",
+    "id": 14,
+    "effort": 0.487,
+    "yield": 2
+  },
+  {
+    "gen": 1,
+    "event": "farm",
+    "id": 15,
+    "effort": 0.519,
+    "yield": 2
+  },
+  {
+    "gen": 1,
+    "event": "farm",
+    "id": 16,
+    "effort": 0.526,
+    "yield": 2
+  },
+  {
+    "gen": 1,
+    "event": "farm",
+    "id": 17,
+    "effort": 0.55,
+    "yield": 2
+  },
+  {
+    "gen": 1,
+    "event": "farm",
+    "id": 18,
+    "effort": 0.509,
+    "yield": 2
+  },
+  {
+    "gen": 1,
+    "event": "farm",
+    "id": 19,
+    "effort": 0.452,
+    "yield": 2
+  },
+  {
+    "gen": 1,
+    "event": "farm",
+    "id": 20,
+    "effort": 0.523,
+    "yield": 2
+  },
+  {
+    "gen": 1,
+    "event": "farm",
+    "id": 21,
+    "effort": 0.446,
+    "yield": 2
+  },
+  {
+    "gen": 1,
+    "event": "farm",
+    "id": 22,
+    "effort": 0.603,
+    "yield": 2
+  },
+  {
+    "gen": 1,
+    "event": "farm",
+    "id": 23,
+    "effort": 0.432,
+    "yield": 2
+  },
+  {
+    "gen": 1,
+    "event": "birth",
+    "parents": [
+      0,
+      1
+    ],
+    "child": 24
+  },
+  {
+    "gen": 1,
+    "event": "birth",
+    "parents": [
+      2,
+      3
+    ],
+    "child": 25
+  },
+  {
+    "gen": 1,
+    "event": "birth",
+    "parents": [
+      4,
+      5
+    ],
+    "child": 26
+  },
+  {
+    "gen": 1,
+    "event": "birth",
+    "parents": [
+      6,
+      7
+    ],
+    "child": 27
+  },
+  {
+    "gen": 1,
+    "event": "birth",
+    "parents": [
+      8,
+      9
+    ],
+    "child": 28
+  },
+  {
+    "gen": 1,
+    "event": "birth",
+    "parents": [
+      10,
+      11
+    ],
+    "child": 29
+  },
+  {
+    "gen": 1,
+    "event": "birth",
+    "parents": [
+      12,
+      13
+    ],
+    "child": 30
+  },
+  {
+    "gen": 1,
+    "event": "birth",
+    "parents": [
+      14,
+      15
+    ],
+    "child": 31
+  },
+  {
+    "gen": 1,
+    "event": "birth",
+    "parents": [
+      16,
+      17
+    ],
+    "child": 32
+  },
+  {
+    "gen": 1,
+    "event": "birth",
+    "parents": [
+      18,
+      19
+    ],
+    "child": 33
+  },
+  {
+    "gen": 1,
+    "event": "birth",
+    "parents": [
+      20,
+      21
+    ],
+    "child": 34
+  },
+  {
+    "gen": 1,
+    "event": "birth",
+    "parents": [
+      22,
+      23
+    ],
+    "child": 35
+  },
+  {
+    "gen": 2,
+    "event": "pair",
+    "ids": [
+      33,
+      26
+    ]
+  },
+  {
+    "gen": 2,
+    "event": "pair",
+    "ids": [
+      28,
+      35
+    ]
+  },
+  {
+    "gen": 2,
+    "event": "pair",
+    "ids": [
+      29,
+      25
+    ]
+  },
+  {
+    "gen": 2,
+    "event": "pair",
+    "ids": [
+      34,
+      24
+    ]
+  },
+  {
+    "gen": 2,
+    "event": "pair",
+    "ids": [
+      27,
+      32
+    ]
+  },
+  {
+    "gen": 2,
+    "event": "pair",
+    "ids": [
+      31,
+      30
+    ]
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 0,
+    "effort": 0.87,
+    "yield": 3
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 1,
+    "effort": 0.801,
+    "yield": 3
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 2,
+    "effort": 0.78,
+    "yield": 3
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 3,
+    "effort": 0.838,
+    "yield": 3
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 4,
+    "effort": 0.778,
+    "yield": 3
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 5,
+    "effort": 0.801,
+    "yield": 3
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 6,
+    "effort": 0.877,
+    "yield": 4
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 7,
+    "effort": 0.739,
+    "yield": 3
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 8,
+    "effort": 0.815,
+    "yield": 3
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 9,
+    "effort": 0.762,
+    "yield": 3
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 10,
+    "effort": 0.87,
+    "yield": 3
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 11,
+    "effort": 0.882,
+    "yield": 4
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 12,
+    "effort": 0.764,
+    "yield": 3
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 13,
+    "effort": 0.812,
+    "yield": 3
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 14,
+    "effort": 0.856,
+    "yield": 3
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 15,
+    "effort": 0.827,
+    "yield": 3
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 16,
+    "effort": 0.922,
+    "yield": 4
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 17,
+    "effort": 0.938,
+    "yield": 4
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 18,
+    "effort": 0.784,
+    "yield": 3
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 19,
+    "effort": 0.78,
+    "yield": 3
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 20,
+    "effort": 0.879,
+    "yield": 4
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 21,
+    "effort": 0.925,
+    "yield": 4
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 22,
+    "effort": 0.846,
+    "yield": 3
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 23,
+    "effort": 0.824,
+    "yield": 3
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 24,
+    "effort": 0.792,
+    "yield": 3
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 25,
+    "effort": 0.837,
+    "yield": 3
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 26,
+    "effort": 0.884,
+    "yield": 4
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 27,
+    "effort": 0.793,
+    "yield": 3
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 28,
+    "effort": 0.793,
+    "yield": 3
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 29,
+    "effort": 0.81,
+    "yield": 3
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 30,
+    "effort": 0.828,
+    "yield": 3
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 31,
+    "effort": 0.746,
+    "yield": 3
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 32,
+    "effort": 0.874,
+    "yield": 3
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 33,
+    "effort": 0.755,
+    "yield": 3
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 34,
+    "effort": 0.745,
+    "yield": 3
+  },
+  {
+    "gen": 2,
+    "event": "farm",
+    "id": 35,
+    "effort": 0.813,
+    "yield": 3
+  },
+  {
+    "gen": 2,
+    "event": "birth",
+    "parents": [
+      0,
+      1
+    ],
+    "child": 36
+  },
+  {
+    "gen": 2,
+    "event": "birth",
+    "parents": [
+      2,
+      3
+    ],
+    "child": 37
+  },
+  {
+    "gen": 2,
+    "event": "birth",
+    "parents": [
+      4,
+      5
+    ],
+    "child": 38
+  },
+  {
+    "gen": 2,
+    "event": "birth",
+    "parents": [
+      6,
+      7
+    ],
+    "child": 39
+  },
+  {
+    "gen": 2,
+    "event": "birth",
+    "parents": [
+      8,
+      9
+    ],
+    "child": 40
+  },
+  {
+    "gen": 2,
+    "event": "birth",
+    "parents": [
+      10,
+      11
+    ],
+    "child": 41
+  },
+  {
+    "gen": 2,
+    "event": "birth",
+    "parents": [
+      12,
+      13
+    ],
+    "child": 42
+  },
+  {
+    "gen": 2,
+    "event": "birth",
+    "parents": [
+      14,
+      15
+    ],
+    "child": 43
+  },
+  {
+    "gen": 2,
+    "event": "birth",
+    "parents": [
+      16,
+      17
+    ],
+    "child": 44
+  },
+  {
+    "gen": 2,
+    "event": "birth",
+    "parents": [
+      18,
+      19
+    ],
+    "child": 45
+  },
+  {
+    "gen": 2,
+    "event": "birth",
+    "parents": [
+      20,
+      21
+    ],
+    "child": 46
+  },
+  {
+    "gen": 2,
+    "event": "birth",
+    "parents": [
+      22,
+      23
+    ],
+    "child": 47
+  },
+  {
+    "gen": 2,
+    "event": "birth",
+    "parents": [
+      24,
+      34
+    ],
+    "child": 48
+  },
+  {
+    "gen": 2,
+    "event": "birth",
+    "parents": [
+      25,
+      29
+    ],
+    "child": 49
+  },
+  {
+    "gen": 2,
+    "event": "birth",
+    "parents": [
+      26,
+      33
+    ],
+    "child": 50
+  },
+  {
+    "gen": 2,
+    "event": "birth",
+    "parents": [
+      27,
+      32
+    ],
+    "child": 51
+  },
+  {
+    "gen": 2,
+    "event": "birth",
+    "parents": [
+      28,
+      35
+    ],
+    "child": 52
+  },
+  {
+    "gen": 2,
+    "event": "birth",
+    "parents": [
+      30,
+      31
+    ],
+    "child": 53
+  },
+  {
+    "gen": 3,
+    "event": "pair",
+    "ids": [
+      43,
+      40
+    ]
+  },
+  {
+    "gen": 3,
+    "event": "pair",
+    "ids": [
+      37,
+      36
+    ]
+  },
+  {
+    "gen": 3,
+    "event": "pair",
+    "ids": [
+      44,
+      39
+    ]
+  },
+  {
+    "gen": 3,
+    "event": "pair",
+    "ids": [
+      45,
+      38
+    ]
+  },
+  {
+    "gen": 3,
+    "event": "pair",
+    "ids": [
+      52,
+      53
+    ]
+  },
+  {
+    "gen": 3,
+    "event": "pair",
+    "ids": [
+      50,
+      51
+    ]
+  },
+  {
+    "gen": 3,
+    "event": "pair",
+    "ids": [
+      46,
+      47
+    ]
+  },
+  {
+    "gen": 3,
+    "event": "pair",
+    "ids": [
+      42,
+      41
+    ]
+  },
+  {
+    "gen": 3,
+    "event": "pair",
+    "ids": [
+      48,
+      49
+    ]
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 0,
+    "effort": 0.76,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 1,
+    "effort": 0.861,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 2,
+    "effort": 0.789,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 3,
+    "effort": 0.73,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 4,
+    "effort": 0.901,
+    "yield": 4
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 5,
+    "effort": 0.874,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 6,
+    "effort": 0.803,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 7,
+    "effort": 0.835,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 8,
+    "effort": 0.878,
+    "yield": 4
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 9,
+    "effort": 0.764,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 10,
+    "effort": 0.841,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 11,
+    "effort": 0.727,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 12,
+    "effort": 0.782,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 13,
+    "effort": 0.759,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 14,
+    "effort": 0.743,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 15,
+    "effort": 0.952,
+    "yield": 4
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 16,
+    "effort": 0.776,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 17,
+    "effort": 0.921,
+    "yield": 4
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 18,
+    "effort": 0.818,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 19,
+    "effort": 0.824,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 20,
+    "effort": 0.944,
+    "yield": 4
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 21,
+    "effort": 0.934,
+    "yield": 4
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 22,
+    "effort": 0.87,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 23,
+    "effort": 0.899,
+    "yield": 4
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 24,
+    "effort": 0.833,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 25,
+    "effort": 0.843,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 26,
+    "effort": 0.837,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 27,
+    "effort": 0.755,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 28,
+    "effort": 0.817,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 29,
+    "effort": 0.869,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 30,
+    "effort": 0.733,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 31,
+    "effort": 0.859,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 32,
+    "effort": 0.799,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 33,
+    "effort": 0.859,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 34,
+    "effort": 0.843,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 35,
+    "effort": 0.837,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 36,
+    "effort": 0.814,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 37,
+    "effort": 0.822,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 38,
+    "effort": 0.912,
+    "yield": 4
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 39,
+    "effort": 0.811,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 40,
+    "effort": 0.84,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 41,
+    "effort": 0.896,
+    "yield": 4
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 42,
+    "effort": 0.854,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 43,
+    "effort": 0.867,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 44,
+    "effort": 0.793,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 45,
+    "effort": 0.735,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 46,
+    "effort": 0.784,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 47,
+    "effort": 0.866,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 48,
+    "effort": 0.768,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 49,
+    "effort": 0.891,
+    "yield": 4
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 50,
+    "effort": 0.778,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 51,
+    "effort": 0.784,
+    "yield": 3
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 52,
+    "effort": 0.932,
+    "yield": 4
+  },
+  {
+    "gen": 3,
+    "event": "farm",
+    "id": 53,
+    "effort": 0.912,
+    "yield": 4
+  },
+  {
+    "gen": 3,
+    "event": "birth",
+    "parents": [
+      0,
+      1
+    ],
+    "child": 54
+  },
+  {
+    "gen": 3,
+    "event": "birth",
+    "parents": [
+      2,
+      3
+    ],
+    "child": 55
+  },
+  {
+    "gen": 3,
+    "event": "birth",
+    "parents": [
+      4,
+      5
+    ],
+    "child": 56
+  },
+  {
+    "gen": 3,
+    "event": "birth",
+    "parents": [
+      6,
+      7
+    ],
+    "child": 57
+  },
+  {
+    "gen": 3,
+    "event": "birth",
+    "parents": [
+      8,
+      9
+    ],
+    "child": 58
+  },
+  {
+    "gen": 3,
+    "event": "birth",
+    "parents": [
+      10,
+      11
+    ],
+    "child": 59
+  },
+  {
+    "gen": 3,
+    "event": "birth",
+    "parents": [
+      12,
+      13
+    ],
+    "child": 60
+  },
+  {
+    "gen": 3,
+    "event": "birth",
+    "parents": [
+      14,
+      15
+    ],
+    "child": 61
+  },
+  {
+    "gen": 3,
+    "event": "birth",
+    "parents": [
+      16,
+      17
+    ],
+    "child": 62
+  },
+  {
+    "gen": 3,
+    "event": "birth",
+    "parents": [
+      18,
+      19
+    ],
+    "child": 63
+  },
+  {
+    "gen": 3,
+    "event": "birth",
+    "parents": [
+      20,
+      21
+    ],
+    "child": 64
+  },
+  {
+    "gen": 3,
+    "event": "birth",
+    "parents": [
+      22,
+      23
+    ],
+    "child": 65
+  },
+  {
+    "gen": 3,
+    "event": "birth",
+    "parents": [
+      24,
+      34
+    ],
+    "child": 66
+  },
+  {
+    "gen": 3,
+    "event": "birth",
+    "parents": [
+      25,
+      29
+    ],
+    "child": 67
+  },
+  {
+    "gen": 3,
+    "event": "birth",
+    "parents": [
+      26,
+      33
+    ],
+    "child": 68
+  },
+  {
+    "gen": 3,
+    "event": "birth",
+    "parents": [
+      27,
+      32
+    ],
+    "child": 69
+  },
+  {
+    "gen": 3,
+    "event": "birth",
+    "parents": [
+      28,
+      35
+    ],
+    "child": 70
+  },
+  {
+    "gen": 3,
+    "event": "birth",
+    "parents": [
+      30,
+      31
+    ],
+    "child": 71
+  },
+  {
+    "gen": 3,
+    "event": "birth",
+    "parents": [
+      36,
+      37
+    ],
+    "child": 72
+  },
+  {
+    "gen": 3,
+    "event": "birth",
+    "parents": [
+      38,
+      45
+    ],
+    "child": 73
+  },
+  {
+    "gen": 3,
+    "event": "birth",
+    "parents": [
+      39,
+      44
+    ],
+    "child": 74
+  },
+  {
+    "gen": 3,
+    "event": "birth",
+    "parents": [
+      40,
+      43
+    ],
+    "child": 75
+  },
+  {
+    "gen": 3,
+    "event": "birth",
+    "parents": [
+      41,
+      42
+    ],
+    "child": 76
+  },
+  {
+    "gen": 3,
+    "event": "birth",
+    "parents": [
+      46,
+      47
+    ],
+    "child": 77
+  },
+  {
+    "gen": 3,
+    "event": "birth",
+    "parents": [
+      48,
+      49
+    ],
+    "child": 78
+  },
+  {
+    "gen": 3,
+    "event": "birth",
+    "parents": [
+      50,
+      51
+    ],
+    "child": 79
+  },
+  {
+    "gen": 3,
+    "event": "birth",
+    "parents": [
+      52,
+      53
+    ],
+    "child": 80
+  },
+  {
+    "gen": 4,
+    "event": "pair",
+    "ids": [
+      70,
+      68
+    ]
+  },
+  {
+    "gen": 4,
+    "event": "pair",
+    "ids": [
+      75,
+      60
+    ]
+  },
+  {
+    "gen": 4,
+    "event": "pair",
+    "ids": [
+      62,
+      56
+    ]
+  },
+  {
+    "gen": 4,
+    "event": "pair",
+    "ids": [
+      71,
+      78
+    ]
+  },
+  {
+    "gen": 4,
+    "event": "pair",
+    "ids": [
+      69,
+      80
+    ]
+  },
+  {
+    "gen": 4,
+    "event": "pair",
+    "ids": [
+      67,
+      79
+    ]
+  },
+  {
+    "gen": 4,
+    "event": "pair",
+    "ids": [
+      59,
+      57
+    ]
+  },
+  {
+    "gen": 4,
+    "event": "pair",
+    "ids": [
+      77,
+      74
+    ]
+  },
+  {
+    "gen": 4,
+    "event": "pair",
+    "ids": [
+      55,
+      66
+    ]
+  },
+  {
+    "gen": 4,
+    "event": "pair",
+    "ids": [
+      76,
+      61
+    ]
+  },
+  {
+    "gen": 4,
+    "event": "pair",
+    "ids": [
+      64,
+      73
+    ]
+  },
+  {
+    "gen": 4,
+    "event": "pair",
+    "ids": [
+      58,
+      72
+    ]
+  },
+  {
+    "gen": 4,
+    "event": "pair",
+    "ids": [
+      65,
+      54
+    ]
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 24,
+    "effort": 0.814,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 25,
+    "effort": 0.817,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 26,
+    "effort": 0.935,
+    "yield": 4
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 27,
+    "effort": 0.802,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 28,
+    "effort": 0.892,
+    "yield": 4
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 29,
+    "effort": 0.938,
+    "yield": 4
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 30,
+    "effort": 0.938,
+    "yield": 4
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 31,
+    "effort": 0.886,
+    "yield": 4
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 32,
+    "effort": 0.749,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 33,
+    "effort": 0.932,
+    "yield": 4
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 34,
+    "effort": 0.795,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 35,
+    "effort": 0.767,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 36,
+    "effort": 0.951,
+    "yield": 4
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 37,
+    "effort": 0.826,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 38,
+    "effort": 0.841,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 39,
+    "effort": 0.805,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 40,
+    "effort": 0.77,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 41,
+    "effort": 0.868,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 42,
+    "effort": 0.824,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 43,
+    "effort": 0.836,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 44,
+    "effort": 0.897,
+    "yield": 4
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 45,
+    "effort": 0.783,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 46,
+    "effort": 0.746,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 47,
+    "effort": 0.877,
+    "yield": 4
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 48,
+    "effort": 0.796,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 49,
+    "effort": 0.81,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 50,
+    "effort": 0.74,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 51,
+    "effort": 0.737,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 52,
+    "effort": 0.8,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 53,
+    "effort": 0.851,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 54,
+    "effort": 0.759,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 55,
+    "effort": 0.924,
+    "yield": 4
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 56,
+    "effort": 0.807,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 57,
+    "effort": 0.733,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 58,
+    "effort": 0.789,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 59,
+    "effort": 0.839,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 60,
+    "effort": 0.836,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 61,
+    "effort": 0.802,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 62,
+    "effort": 0.786,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 63,
+    "effort": 0.732,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 64,
+    "effort": 0.772,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 65,
+    "effort": 0.85,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 66,
+    "effort": 0.799,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 67,
+    "effort": 0.725,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 68,
+    "effort": 0.766,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 69,
+    "effort": 0.901,
+    "yield": 4
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 70,
+    "effort": 0.737,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 71,
+    "effort": 0.761,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 72,
+    "effort": 0.795,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 73,
+    "effort": 0.852,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 74,
+    "effort": 0.916,
+    "yield": 4
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 75,
+    "effort": 0.789,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 76,
+    "effort": 0.8,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 77,
+    "effort": 0.826,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 78,
+    "effort": 0.809,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 79,
+    "effort": 0.901,
+    "yield": 4
+  },
+  {
+    "gen": 4,
+    "event": "farm",
+    "id": 80,
+    "effort": 0.83,
+    "yield": 3
+  },
+  {
+    "gen": 4,
+    "event": "birth",
+    "parents": [
+      24,
+      34
+    ],
+    "child": 81
+  },
+  {
+    "gen": 4,
+    "event": "birth",
+    "parents": [
+      25,
+      29
+    ],
+    "child": 82
+  },
+  {
+    "gen": 4,
+    "event": "birth",
+    "parents": [
+      26,
+      33
+    ],
+    "child": 83
+  },
+  {
+    "gen": 4,
+    "event": "birth",
+    "parents": [
+      28,
+      35
+    ],
+    "child": 84
+  },
+  {
+    "gen": 4,
+    "event": "birth",
+    "parents": [
+      30,
+      31
+    ],
+    "child": 85
+  },
+  {
+    "gen": 4,
+    "event": "birth",
+    "parents": [
+      36,
+      37
+    ],
+    "child": 86
+  },
+  {
+    "gen": 4,
+    "event": "birth",
+    "parents": [
+      38,
+      45
+    ],
+    "child": 87
+  },
+  {
+    "gen": 4,
+    "event": "birth",
+    "parents": [
+      39,
+      44
+    ],
+    "child": 88
+  },
+  {
+    "gen": 4,
+    "event": "birth",
+    "parents": [
+      40,
+      43
+    ],
+    "child": 89
+  },
+  {
+    "gen": 4,
+    "event": "birth",
+    "parents": [
+      41,
+      42
+    ],
+    "child": 90
+  },
+  {
+    "gen": 4,
+    "event": "birth",
+    "parents": [
+      46,
+      47
+    ],
+    "child": 91
+  },
+  {
+    "gen": 4,
+    "event": "birth",
+    "parents": [
+      48,
+      49
+    ],
+    "child": 92
+  },
+  {
+    "gen": 4,
+    "event": "birth",
+    "parents": [
+      50,
+      51
+    ],
+    "child": 93
+  },
+  {
+    "gen": 4,
+    "event": "birth",
+    "parents": [
+      52,
+      53
+    ],
+    "child": 94
+  },
+  {
+    "gen": 4,
+    "event": "birth",
+    "parents": [
+      54,
+      65
+    ],
+    "child": 95
+  },
+  {
+    "gen": 4,
+    "event": "birth",
+    "parents": [
+      55,
+      66
+    ],
+    "child": 96
+  },
+  {
+    "gen": 4,
+    "event": "birth",
+    "parents": [
+      56,
+      62
+    ],
+    "child": 97
+  },
+  {
+    "gen": 4,
+    "event": "birth",
+    "parents": [
+      57,
+      59
+    ],
+    "child": 98
+  },
+  {
+    "gen": 4,
+    "event": "birth",
+    "parents": [
+      58,
+      72
+    ],
+    "child": 99
+  },
+  {
+    "gen": 4,
+    "event": "birth",
+    "parents": [
+      60,
+      75
+    ],
+    "child": 100
+  },
+  {
+    "gen": 4,
+    "event": "birth",
+    "parents": [
+      61,
+      76
+    ],
+    "child": 101
+  },
+  {
+    "gen": 4,
+    "event": "birth",
+    "parents": [
+      64,
+      73
+    ],
+    "child": 102
+  },
+  {
+    "gen": 4,
+    "event": "birth",
+    "parents": [
+      67,
+      79
+    ],
+    "child": 103
+  },
+  {
+    "gen": 4,
+    "event": "birth",
+    "parents": [
+      68,
+      70
+    ],
+    "child": 104
+  },
+  {
+    "gen": 4,
+    "event": "birth",
+    "parents": [
+      69,
+      80
+    ],
+    "child": 105
+  },
+  {
+    "gen": 4,
+    "event": "birth",
+    "parents": [
+      71,
+      78
+    ],
+    "child": 106
+  },
+  {
+    "gen": 4,
+    "event": "birth",
+    "parents": [
+      74,
+      77
+    ],
+    "child": 107
+  },
+  {
+    "gen": 5,
+    "event": "pair",
+    "ids": [
+      100,
+      82
+    ]
+  },
+  {
+    "gen": 5,
+    "event": "pair",
+    "ids": [
+      103,
+      85
+    ]
+  },
+  {
+    "gen": 5,
+    "event": "pair",
+    "ids": [
+      106,
+      96
+    ]
+  },
+  {
+    "gen": 5,
+    "event": "pair",
+    "ids": [
+      105,
+      83
+    ]
+  },
+  {
+    "gen": 5,
+    "event": "pair",
+    "ids": [
+      90,
+      97
+    ]
+  },
+  {
+    "gen": 5,
+    "event": "pair",
+    "ids": [
+      81,
+      101
+    ]
+  },
+  {
+    "gen": 5,
+    "event": "pair",
+    "ids": [
+      107,
+      104
+    ]
+  },
+  {
+    "gen": 5,
+    "event": "pair",
+    "ids": [
+      86,
+      93
+    ]
+  },
+  {
+    "gen": 5,
+    "event": "pair",
+    "ids": [
+      92,
+      102
+    ]
+  },
+  {
+    "gen": 5,
+    "event": "pair",
+    "ids": [
+      88,
+      99
+    ]
+  },
+  {
+    "gen": 5,
+    "event": "pair",
+    "ids": [
+      95,
+      87
+    ]
+  },
+  {
+    "gen": 5,
+    "event": "pair",
+    "ids": [
+      91,
+      94
+    ]
+  },
+  {
+    "gen": 5,
+    "event": "pair",
+    "ids": [
+      84,
+      89
+    ]
+  },
+  {
+    "gen": 5,
+    "event": "pair",
+    "ids": [
+      98,
+      63
+    ]
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 36,
+    "effort": 0.822,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 37,
+    "effort": 0.871,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 38,
+    "effort": 0.882,
+    "yield": 4
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 39,
+    "effort": 0.762,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 40,
+    "effort": 0.754,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 41,
+    "effort": 0.801,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 42,
+    "effort": 0.825,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 43,
+    "effort": 0.847,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 44,
+    "effort": 0.809,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 45,
+    "effort": 0.75,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 46,
+    "effort": 0.776,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 47,
+    "effort": 0.778,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 48,
+    "effort": 0.889,
+    "yield": 4
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 49,
+    "effort": 0.818,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 50,
+    "effort": 0.922,
+    "yield": 4
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 51,
+    "effort": 0.931,
+    "yield": 4
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 52,
+    "effort": 0.954,
+    "yield": 4
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 53,
+    "effort": 0.785,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 54,
+    "effort": 0.842,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 55,
+    "effort": 0.807,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 56,
+    "effort": 0.88,
+    "yield": 4
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 57,
+    "effort": 0.91,
+    "yield": 4
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 58,
+    "effort": 0.811,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 59,
+    "effort": 0.781,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 60,
+    "effort": 0.92,
+    "yield": 4
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 61,
+    "effort": 0.912,
+    "yield": 4
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 62,
+    "effort": 0.755,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 63,
+    "effort": 0.915,
+    "yield": 4
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 64,
+    "effort": 0.909,
+    "yield": 4
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 65,
+    "effort": 0.835,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 66,
+    "effort": 0.909,
+    "yield": 4
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 67,
+    "effort": 0.924,
+    "yield": 4
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 68,
+    "effort": 0.749,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 69,
+    "effort": 0.809,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 70,
+    "effort": 0.854,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 71,
+    "effort": 0.926,
+    "yield": 4
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 72,
+    "effort": 0.884,
+    "yield": 4
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 73,
+    "effort": 0.853,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 74,
+    "effort": 0.874,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 75,
+    "effort": 0.877,
+    "yield": 4
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 76,
+    "effort": 0.915,
+    "yield": 4
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 77,
+    "effort": 0.812,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 78,
+    "effort": 0.884,
+    "yield": 4
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 79,
+    "effort": 0.893,
+    "yield": 4
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 80,
+    "effort": 0.787,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 81,
+    "effort": 0.908,
+    "yield": 4
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 82,
+    "effort": 0.745,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 83,
+    "effort": 0.778,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 84,
+    "effort": 0.736,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 85,
+    "effort": 0.784,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 86,
+    "effort": 0.794,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 87,
+    "effort": 0.769,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 88,
+    "effort": 0.887,
+    "yield": 4
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 89,
+    "effort": 0.825,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 90,
+    "effort": 0.773,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 91,
+    "effort": 0.718,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 92,
+    "effort": 0.756,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 93,
+    "effort": 0.823,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 94,
+    "effort": 0.85,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 95,
+    "effort": 0.92,
+    "yield": 4
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 96,
+    "effort": 0.74,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 97,
+    "effort": 0.762,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 98,
+    "effort": 0.773,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 99,
+    "effort": 0.794,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 100,
+    "effort": 0.842,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 101,
+    "effort": 0.846,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 102,
+    "effort": 0.74,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 103,
+    "effort": 0.765,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 104,
+    "effort": 0.781,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 105,
+    "effort": 0.858,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 106,
+    "effort": 0.735,
+    "yield": 3
+  },
+  {
+    "gen": 5,
+    "event": "farm",
+    "id": 107,
+    "effort": 0.876,
+    "yield": 4
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      36,
+      37
+    ],
+    "child": 108
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      38,
+      45
+    ],
+    "child": 109
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      39,
+      44
+    ],
+    "child": 110
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      40,
+      43
+    ],
+    "child": 111
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      41,
+      42
+    ],
+    "child": 112
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      48,
+      49
+    ],
+    "child": 113
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      50,
+      51
+    ],
+    "child": 114
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      52,
+      53
+    ],
+    "child": 115
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      54,
+      65
+    ],
+    "child": 116
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      55,
+      66
+    ],
+    "child": 117
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      56,
+      62
+    ],
+    "child": 118
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      57,
+      59
+    ],
+    "child": 119
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      58,
+      72
+    ],
+    "child": 120
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      60,
+      75
+    ],
+    "child": 121
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      61,
+      76
+    ],
+    "child": 122
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      63,
+      98
+    ],
+    "child": 123
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      64,
+      73
+    ],
+    "child": 124
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      67,
+      79
+    ],
+    "child": 125
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      68,
+      70
+    ],
+    "child": 126
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      69,
+      80
+    ],
+    "child": 127
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      71,
+      78
+    ],
+    "child": 128
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      74,
+      77
+    ],
+    "child": 129
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      81,
+      101
+    ],
+    "child": 130
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      82,
+      100
+    ],
+    "child": 131
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      83,
+      105
+    ],
+    "child": 132
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      84,
+      89
+    ],
+    "child": 133
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      85,
+      103
+    ],
+    "child": 134
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      86,
+      93
+    ],
+    "child": 135
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      87,
+      95
+    ],
+    "child": 136
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      88,
+      99
+    ],
+    "child": 137
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      90,
+      97
+    ],
+    "child": 138
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      91,
+      94
+    ],
+    "child": 139
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      92,
+      102
+    ],
+    "child": 140
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      96,
+      106
+    ],
+    "child": 141
+  },
+  {
+    "gen": 5,
+    "event": "birth",
+    "parents": [
+      104,
+      107
+    ],
+    "child": 142
+  },
+  {
+    "gen": 6,
+    "event": "pair",
+    "ids": [
+      108,
+      110
+    ]
+  },
+  {
+    "gen": 6,
+    "event": "pair",
+    "ids": [
+      134,
+      126
+    ]
+  },
+  {
+    "gen": 6,
+    "event": "pair",
+    "ids": [
+      142,
+      132
+    ]
+  },
+  {
+    "gen": 6,
+    "event": "pair",
+    "ids": [
+      135,
+      122
+    ]
+  },
+  {
+    "gen": 6,
+    "event": "pair",
+    "ids": [
+      115,
+      118
+    ]
+  },
+  {
+    "gen": 6,
+    "event": "pair",
+    "ids": [
+      123,
+      111
+    ]
+  },
+  {
+    "gen": 6,
+    "event": "pair",
+    "ids": [
+      129,
+      131
+    ]
+  },
+  {
+    "gen": 6,
+    "event": "pair",
+    "ids": [
+      114,
+      141
+    ]
+  },
+  {
+    "gen": 6,
+    "event": "pair",
+    "ids": [
+      133,
+      116
+    ]
+  },
+  {
+    "gen": 6,
+    "event": "pair",
+    "ids": [
+      130,
+      109
+    ]
+  },
+  {
+    "gen": 6,
+    "event": "pair",
+    "ids": [
+      119,
+      140
+    ]
+  },
+  {
+    "gen": 6,
+    "event": "pair",
+    "ids": [
+      121,
+      128
+    ]
+  },
+  {
+    "gen": 6,
+    "event": "pair",
+    "ids": [
+      117,
+      113
+    ]
+  },
+  {
+    "gen": 6,
+    "event": "pair",
+    "ids": [
+      124,
+      136
+    ]
+  },
+  {
+    "gen": 6,
+    "event": "pair",
+    "ids": [
+      120,
+      137
+    ]
+  },
+  {
+    "gen": 6,
+    "event": "pair",
+    "ids": [
+      138,
+      112
+    ]
+  },
+  {
+    "gen": 6,
+    "event": "pair",
+    "ids": [
+      125,
+      127
+    ]
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 54,
+    "effort": 0.824,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 55,
+    "effort": 0.886,
+    "yield": 4
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 56,
+    "effort": 0.894,
+    "yield": 4
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 57,
+    "effort": 0.816,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 58,
+    "effort": 0.898,
+    "yield": 4
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 59,
+    "effort": 0.885,
+    "yield": 4
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 60,
+    "effort": 0.931,
+    "yield": 4
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 61,
+    "effort": 0.841,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 62,
+    "effort": 0.809,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 63,
+    "effort": 0.803,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 65,
+    "effort": 0.909,
+    "yield": 4
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 66,
+    "effort": 0.793,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 67,
+    "effort": 0.905,
+    "yield": 4
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 68,
+    "effort": 0.897,
+    "yield": 4
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 69,
+    "effort": 0.906,
+    "yield": 4
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 70,
+    "effort": 0.83,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 71,
+    "effort": 0.865,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 72,
+    "effort": 0.846,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 73,
+    "effort": 0.79,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 74,
+    "effort": 0.933,
+    "yield": 4
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 75,
+    "effort": 0.876,
+    "yield": 4
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 76,
+    "effort": 0.792,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 77,
+    "effort": 0.901,
+    "yield": 4
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 78,
+    "effort": 0.859,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 79,
+    "effort": 0.812,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 80,
+    "effort": 0.814,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 81,
+    "effort": 0.804,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 82,
+    "effort": 0.892,
+    "yield": 4
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 83,
+    "effort": 0.906,
+    "yield": 4
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 84,
+    "effort": 0.893,
+    "yield": 4
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 85,
+    "effort": 0.801,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 86,
+    "effort": 0.781,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 87,
+    "effort": 0.946,
+    "yield": 4
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 88,
+    "effort": 0.787,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 89,
+    "effort": 0.933,
+    "yield": 4
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 90,
+    "effort": 0.789,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 91,
+    "effort": 0.923,
+    "yield": 4
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 92,
+    "effort": 0.748,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 93,
+    "effort": 0.772,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 94,
+    "effort": 0.797,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 95,
+    "effort": 0.808,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 96,
+    "effort": 0.885,
+    "yield": 4
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 97,
+    "effort": 0.842,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 98,
+    "effort": 0.818,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 99,
+    "effort": 0.798,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 100,
+    "effort": 0.907,
+    "yield": 4
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 101,
+    "effort": 0.782,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 102,
+    "effort": 0.883,
+    "yield": 4
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 103,
+    "effort": 0.759,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 104,
+    "effort": 0.804,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 105,
+    "effort": 0.88,
+    "yield": 4
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 106,
+    "effort": 0.741,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 107,
+    "effort": 0.825,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 108,
+    "effort": 0.76,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 109,
+    "effort": 0.771,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 110,
+    "effort": 0.895,
+    "yield": 4
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 111,
+    "effort": 0.771,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 112,
+    "effort": 0.838,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 113,
+    "effort": 0.766,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 114,
+    "effort": 0.799,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 115,
+    "effort": 0.832,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 116,
+    "effort": 0.781,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 117,
+    "effort": 0.742,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 118,
+    "effort": 0.914,
+    "yield": 4
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 119,
+    "effort": 0.88,
+    "yield": 4
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 120,
+    "effort": 0.76,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 121,
+    "effort": 0.802,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 122,
+    "effort": 0.898,
+    "yield": 4
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 123,
+    "effort": 0.891,
+    "yield": 4
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 124,
+    "effort": 0.743,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 125,
+    "effort": 0.81,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 126,
+    "effort": 0.849,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 127,
+    "effort": 0.865,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 128,
+    "effort": 0.752,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 129,
+    "effort": 0.873,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 130,
+    "effort": 0.771,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 131,
+    "effort": 0.819,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 132,
+    "effort": 0.801,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 133,
+    "effort": 0.868,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 134,
+    "effort": 0.828,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 135,
+    "effort": 0.751,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 136,
+    "effort": 0.772,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 137,
+    "effort": 0.837,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 138,
+    "effort": 0.818,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 139,
+    "effort": 0.769,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 140,
+    "effort": 0.756,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 141,
+    "effort": 0.871,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "farm",
+    "id": 142,
+    "effort": 0.764,
+    "yield": 3
+  },
+  {
+    "gen": 6,
+    "event": "birth",
+    "parents": [
+      54,
+      65
+    ],
+    "child": 143
+  },
+  {
+    "gen": 6,
+    "event": "birth",
+    "parents": [
+      55,
+      66
+    ],
+    "child": 144
+  },
+  {
+    "gen": 6,
+    "event": "birth",
+    "parents": [
+      56,
+      62
+    ],
+    "child": 145
+  },
+  {
+    "gen": 6,
+    "event": "birth",
+    "parents": [
+      57,
+      59
+    ],
+    "child": 146
+  }
+]

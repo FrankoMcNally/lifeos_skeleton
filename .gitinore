@@ -1,3 +1,5 @@
+# === LifeOS Skeleton Git Ignore ===
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -27,9 +29,10 @@ share/python-wheels/
 *.egg
 MANIFEST
 
-# Logs and databases
+# Logs, databases, temp
 *.log
 *.sqlite3
+*.tmp
 
 # Unit test / coverage reports
 htmlcov/
@@ -45,21 +48,23 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 
-# Jupyter Notebook
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints
 
 # Virtual environments
 .env
 .venv
-venv/
 env/
+venv/
+ENV/
 
-# Experiment outputs (LifeOS-specific)
+# Simulation outputs (LifeOS-specific)
 runs/
 
 # IDEs / Editors
 .vscode/
 .idea/
+*.code-workspace
 
 # OS files
 .DS_Store
